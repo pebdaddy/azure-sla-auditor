@@ -657,13 +657,20 @@ def compute_observed_sla(windows: List[DowntimeWindow], total_minutes: float) ->
     return 100.0 * (1.0 - downtime / total_minutes)
 
 
+def order_output_columns(df: pd.DataFrame, preferred_columns: List[str]) -> pd.DataFrame:
+    """Return a dataframe with preferred columns first and remaining columns preserved."""
+    ordered = [col for col in preferred_columns if col in df.columns]
+    remaining = [col for col in df.columns if col not in ordered]
+    return df[ordered + remaining]
+
+
 def build_published_sla_rollup(by_service_df: pd.DataFrame) -> pd.DataFrame:
     """Roll up service rows to one row per published SLA (service + target SLA)."""
     columns = [
         "azure_service_name",
-        "target_sla_pct",
         "resource_count",
         "observed_sla_pct",
+        "target_sla_pct",
         "gap_pct",
         "month",
         "measurement_method",
@@ -684,9 +691,9 @@ def build_published_sla_rollup(by_service_df: pd.DataFrame) -> pd.DataFrame:
         grouped_rows.append(
             {
                 "azure_service_name": service_name,
-                "target_sla_pct": target_value,
                 "resource_count": int(total_resources),
                 "observed_sla_pct": round(float(observed_rollup), 5),
+                "target_sla_pct": target_value,
                 "gap_pct": round(float(observed_rollup) - target_value, 5),
                 "month": month,
                 "measurement_method": measurement_method,
@@ -810,11 +817,34 @@ def run():
     # Save evidence (for audit/compliance)
     # PRIMARY: SLA calculated from Service/Resource Health (regulatory reporting)
     by_service_df = pd.DataFrame(by_service)
-    by_service_df.to_csv(os.path.join(CONFIG["evidence_out_dir"], "sla_by_resource_sub_type.csv"), index=False)
+    resource_sub_type_columns = [
+        "azure_service_name",
+        "resource_type",
+        "resource_count",
+        "observed_sla_pct",
+        "target_sla_pct",
+        "gap_pct",
+        "month",
+        "measurement_method",
+    ]
+    order_output_columns(by_service_df, resource_sub_type_columns).to_csv(
+        os.path.join(CONFIG["evidence_out_dir"], "sla_by_resource_sub_type.csv"), index=False
+    )
 
     # Roll up detailed rows to one row per published SLA target.
     published_sla_df = build_published_sla_rollup(by_service_df)
-    published_sla_df.to_csv(os.path.join(CONFIG["evidence_out_dir"], "sla_by_service.csv"), index=False)
+    published_service_columns = [
+        "azure_service_name",
+        "resource_count",
+        "observed_sla_pct",
+        "target_sla_pct",
+        "gap_pct",
+        "month",
+        "measurement_method",
+    ]
+    order_output_columns(published_sla_df, published_service_columns).to_csv(
+        os.path.join(CONFIG["evidence_out_dir"], "sla_by_service.csv"), index=False
+    )
 
     # Platform availability evidence
     with open(os.path.join(CONFIG["evidence_out_dir"], "service_health_windows.json"), "w") as f:

@@ -109,6 +109,13 @@ python sla_auditor.py
 
 If your service footprint changes, re-run resource discovery and update the configuration.
 
+## Testing
+The repository's current test suite uses Python's built-in `unittest` framework. Run all unit tests with:
+
+```bash
+python -m unittest -v tests.test_sla_auditor_unit tests.test_get_resources_unit
+```
+
 ## Output Artifacts
 All outputs are written to `./evidence`.
 

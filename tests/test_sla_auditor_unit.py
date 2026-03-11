@@ -2,6 +2,7 @@
 
 import datetime as dt
 import importlib
+import logging
 import os
 import sys
 import tempfile
@@ -59,6 +60,11 @@ class TestSlaAuditorUnit(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+        logging.disable(logging.CRITICAL)
+
+    @classmethod
+    def tearDownClass(cls):
+        logging.disable(logging.NOTSET)
 
     def _import_module(self):
         with tempfile.TemporaryDirectory() as tmp_dir:
@@ -139,6 +145,93 @@ class TestSlaAuditorUnit(unittest.TestCase):
         self.assertEqual(int(monitor_row["resource_count"]), 6)
         self.assertAlmostEqual(float(monitor_row["observed_sla_pct"]), 99.96667, places=5)
         self.assertAlmostEqual(float(monitor_row["target_sla_pct"]), 99.9, places=5)
+
+    def test_order_output_columns_for_service_csv(self):
+        module = self._import_module()
+        df = module.pd.DataFrame(
+            [
+                {
+                    "measurement_method": "Service/Resource Health",
+                    "gap_pct": 0.1,
+                    "resource_count": 2,
+                    "month": "2025-10-01",
+                    "azure_service_name": "Azure Monitor",
+                    "target_sla_pct": 99.9,
+                    "observed_sla_pct": 100.0,
+                }
+            ]
+        )
+
+        ordered = module.order_output_columns(
+            df,
+            [
+                "azure_service_name",
+                "resource_count",
+                "observed_sla_pct",
+                "target_sla_pct",
+                "gap_pct",
+                "month",
+                "measurement_method",
+            ],
+        )
+
+        self.assertEqual(
+            list(ordered.columns),
+            [
+                "azure_service_name",
+                "resource_count",
+                "observed_sla_pct",
+                "target_sla_pct",
+                "gap_pct",
+                "month",
+                "measurement_method",
+            ],
+        )
+
+    def test_order_output_columns_for_resource_sub_type_csv(self):
+        module = self._import_module()
+        df = module.pd.DataFrame(
+            [
+                {
+                    "measurement_method": "Service/Resource Health",
+                    "gap_pct": 0.1,
+                    "resource_count": 2,
+                    "month": "2025-10-01",
+                    "resource_type": "microsoft.insights/components",
+                    "azure_service_name": "Azure Monitor",
+                    "target_sla_pct": 99.9,
+                    "observed_sla_pct": 100.0,
+                }
+            ]
+        )
+
+        ordered = module.order_output_columns(
+            df,
+            [
+                "azure_service_name",
+                "resource_type",
+                "resource_count",
+                "observed_sla_pct",
+                "target_sla_pct",
+                "gap_pct",
+                "month",
+                "measurement_method",
+            ],
+        )
+
+        self.assertEqual(
+            list(ordered.columns),
+            [
+                "azure_service_name",
+                "resource_type",
+                "resource_count",
+                "observed_sla_pct",
+                "target_sla_pct",
+                "gap_pct",
+                "month",
+                "measurement_method",
+            ],
+        )
 
     def test_load_targets_catalog_uses_key_as_resource_type(self):
         module = self._import_module()
