@@ -1,0 +1,42 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Tool caches and test artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local generated reports and evidence
+evidence/
+
+# Local configuration with real subscription IDs - use sla_config.example.yaml as template
+config.yaml
+
+# Local generated resource/type discovery outputs
+resource_types.txt
+service_to_resource_type_map.csv
+
+# Local downloaded SLA source doc and metadata
+extract-sla-targets/microsoft-online-services-sla-latest.docx
+extract-sla-targets/microsoft-online-services-sla-latest.meta.json

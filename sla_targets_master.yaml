@@ -1,0 +1,3423 @@
+microsoft.aad/domainservices:
+  azure_service_name: Microsoft Entra Domain Services
+  target_pct: 99.9
+microsoft.aad/domainservices/oucontainer:
+  azure_service_name: Microsoft Entra Domain Services
+  target_pct: 99.9
+microsoft.aad/domainservices/unsuspend:
+  azure_service_name: Microsoft Entra Domain Services
+  target_pct: 99.9
+microsoft.alertsmanagement/actionrules:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.alertsmanagement/alertrulerecommendations:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.alertsmanagement/alerts:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.alertsmanagement/alertsmetadata:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.alertsmanagement/alertssummary:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.alertsmanagement/issues:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.alertsmanagement/migratefromsmartdetection:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.alertsmanagement/previewalertrule:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.alertsmanagement/prometheusrulegroups:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.alertsmanagement/smartdetectoralertrules:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.alertsmanagement/smartgroups:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.alertsmanagement/tenantactivitylogalerts:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.analysisservices/servers:
+  azure_service_name: Azure Analysis Services
+  target_pct: 99.9
+microsoft.apimanagement/checkfeedbackrequired:
+  azure_service_name: API Management
+  target_pct: 99.95
+microsoft.apimanagement/checkservicenameavailability:
+  azure_service_name: API Management
+  target_pct: 99.95
+microsoft.apimanagement/deletedservices:
+  azure_service_name: API Management
+  target_pct: 99.95
+microsoft.apimanagement/gateways:
+  azure_service_name: API Management
+  target_pct: 99.95
+microsoft.apimanagement/getdomainownershipidentifier:
+  azure_service_name: API Management
+  target_pct: 99.95
+microsoft.apimanagement/reportfeedback:
+  azure_service_name: API Management
+  target_pct: 99.95
+microsoft.apimanagement/service:
+  azure_service_name: API Management
+  target_pct: 99.95
+microsoft.apimanagement/service/eventgridfilters:
+  azure_service_name: API Management
+  target_pct: 99.95
+microsoft.apimanagement/validateservicename:
+  azure_service_name: API Management
+  target_pct: 99.95
+microsoft.app/agents:
+  azure_service_name: Azure Container Apps
+  target_pct: 99.95
+microsoft.app/agentspaces:
+  azure_service_name: Azure Container Apps
+  target_pct: 99.95
+microsoft.app/builders:
+  azure_service_name: Azure Container Apps
+  target_pct: 99.95
+microsoft.app/builders/builds:
+  azure_service_name: Azure Container Apps
+  target_pct: 99.95
+microsoft.app/builders/patches:
+  azure_service_name: Azure Container Apps
+  target_pct: 99.95
+microsoft.app/connectedenvironments:
+  azure_service_name: Azure Container Apps
+  target_pct: 99.95
+microsoft.app/connectedenvironments/certificates:
+  azure_service_name: Azure Container Apps
+  target_pct: 99.95
+microsoft.app/containerapps:
+  azure_service_name: Azure Container Apps
+  target_pct: 99.95
+microsoft.app/containerapps/privateendpointconnectionproxies:
+  azure_service_name: Azure Container Apps
+  target_pct: 99.95
+microsoft.app/containerapps/resiliencypolicies:
+  azure_service_name: Azure Container Apps
+  target_pct: 99.95
+microsoft.app/functions:
+  azure_service_name: Azure Container Apps
+  target_pct: 99.95
+microsoft.app/getcustomdomainverificationid:
+  azure_service_name: Azure Container Apps
+  target_pct: 99.95
+microsoft.app/jobs:
+  azure_service_name: Azure Container Apps
+  target_pct: 99.95
+microsoft.app/logicapps:
+  azure_service_name: Azure Container Apps
+  target_pct: 99.95
+microsoft.app/managedenvironments:
+  azure_service_name: Azure Container Apps
+  target_pct: 99.95
+microsoft.app/managedenvironments/certificates:
+  azure_service_name: Azure Container Apps
+  target_pct: 99.95
+microsoft.app/managedenvironments/daprcomponents:
+  azure_service_name: Azure Container Apps
+  target_pct: 99.95
+microsoft.app/managedenvironments/daprcomponents/resiliencypolicies:
+  azure_service_name: Azure Container Apps
+  target_pct: 99.95
+microsoft.app/managedenvironments/dotnetcomponents:
+  azure_service_name: Azure Container Apps
+  target_pct: 99.95
+microsoft.app/managedenvironments/javacomponents:
+  azure_service_name: Azure Container Apps
+  target_pct: 99.95
+microsoft.app/managedenvironments/managedcertificates:
+  azure_service_name: Azure Container Apps
+  target_pct: 99.95
+microsoft.app/managedenvironments/privateendpointconnectionproxies:
+  azure_service_name: Azure Container Apps
+  target_pct: 99.95
+microsoft.app/sessionpools:
+  azure_service_name: Azure Container Apps
+  target_pct: 99.95
+microsoft.appconfiguration/configurationstores:
+  azure_service_name: Azure App Configuration
+  target_pct: 99.9
+microsoft.appconfiguration/configurationstores/eventgridfilters:
+  azure_service_name: Azure App Configuration
+  target_pct: 99.9
+microsoft.appconfiguration/configurationstores/experimentation:
+  azure_service_name: Azure App Configuration
+  target_pct: 99.9
+microsoft.appconfiguration/configurationstores/keyvalues:
+  azure_service_name: Azure App Configuration
+  target_pct: 99.9
+microsoft.appconfiguration/configurationstores/replicas:
+  azure_service_name: Azure App Configuration
+  target_pct: 99.9
+microsoft.appconfiguration/configurationstores/snapshots:
+  azure_service_name: Azure App Configuration
+  target_pct: 99.9
+microsoft.appconfiguration/deletedconfigurationstores:
+  azure_service_name: Azure App Configuration
+  target_pct: 99.9
+microsoft.appplatform/runtimeversions:
+  azure_service_name: Azure Spring Apps
+  target_pct: 99.9
+microsoft.appplatform/spring:
+  azure_service_name: Azure Spring Apps
+  target_pct: 99.9
+microsoft.appplatform/spring/apps:
+  azure_service_name: Azure Spring Apps
+  target_pct: 99.9
+microsoft.appplatform/spring/apps/deployments:
+  azure_service_name: Azure Spring Apps
+  target_pct: 99.9
+microsoft.appplatform/spring/apps/domains:
+  azure_service_name: Azure Spring Apps
+  target_pct: 99.9
+microsoft.appplatform/spring/configservers:
+  azure_service_name: Azure Spring Apps
+  target_pct: 99.9
+microsoft.appplatform/spring/eurekaservers:
+  azure_service_name: Azure Spring Apps
+  target_pct: 99.9
+microsoft.automation/automationaccounts:
+  azure_service_name: Automation
+  target_pct: 99.9
+microsoft.automation/automationaccounts/agentregistrationinformation:
+  azure_service_name: Automation
+  target_pct: 99.9
+microsoft.automation/automationaccounts/configurations:
+  azure_service_name: Automation
+  target_pct: 99.9
+microsoft.automation/automationaccounts/hybridrunbookworkergroups:
+  azure_service_name: Automation
+  target_pct: 99.9
+microsoft.automation/automationaccounts/hybridrunbookworkergroups/hybridrunbookworkers:
+  azure_service_name: Automation
+  target_pct: 99.9
+microsoft.automation/automationaccounts/jobs:
+  azure_service_name: Automation
+  target_pct: 99.9
+microsoft.automation/automationaccounts/privateendpointconnectionproxies:
+  azure_service_name: Automation
+  target_pct: 99.9
+microsoft.automation/automationaccounts/privateendpointconnections:
+  azure_service_name: Automation
+  target_pct: 99.9
+microsoft.automation/automationaccounts/privatelinkresources:
+  azure_service_name: Automation
+  target_pct: 99.9
+microsoft.automation/automationaccounts/runbooks:
+  azure_service_name: Automation
+  target_pct: 99.9
+microsoft.automation/automationaccounts/softwareupdateconfigurationmachineruns:
+  azure_service_name: Automation
+  target_pct: 99.9
+microsoft.automation/automationaccounts/softwareupdateconfigurationruns:
+  azure_service_name: Automation
+  target_pct: 99.9
+microsoft.automation/automationaccounts/softwareupdateconfigurations:
+  azure_service_name: Automation
+  target_pct: 99.9
+microsoft.automation/automationaccounts/webhooks:
+  azure_service_name: Automation
+  target_pct: 99.9
+microsoft.automation/deletedautomationaccounts:
+  azure_service_name: Automation
+  target_pct: 99.9
+microsoft.avs/privateclouds:
+  azure_service_name: Azure VMware Solution
+  target_pct: 99.9
+microsoft.avs/privateclouds/addons:
+  azure_service_name: Azure VMware Solution
+  target_pct: 99.9
+microsoft.avs/privateclouds/authorizations:
+  azure_service_name: Azure VMware Solution
+  target_pct: 99.9
+microsoft.avs/privateclouds/cloudlinks:
+  azure_service_name: Azure VMware Solution
+  target_pct: 99.9
+microsoft.avs/privateclouds/clusters:
+  azure_service_name: Azure VMware Solution
+  target_pct: 99.9
+microsoft.avs/privateclouds/clusters/datastores:
+  azure_service_name: Azure VMware Solution
+  target_pct: 99.9
+microsoft.avs/privateclouds/clusters/placementpolicies:
+  azure_service_name: Azure VMware Solution
+  target_pct: 99.9
+microsoft.avs/privateclouds/clusters/virtualmachines:
+  azure_service_name: Azure VMware Solution
+  target_pct: 99.9
+microsoft.avs/privateclouds/eventgridfilters:
+  azure_service_name: Azure VMware Solution
+  target_pct: 99.9
+microsoft.avs/privateclouds/globalreachconnections:
+  azure_service_name: Azure VMware Solution
+  target_pct: 99.9
+microsoft.avs/privateclouds/hcxenterprisesites:
+  azure_service_name: Azure VMware Solution
+  target_pct: 99.9
+microsoft.avs/privateclouds/iscsipaths:
+  azure_service_name: Azure VMware Solution
+  target_pct: 99.9
+microsoft.avs/privateclouds/licenses:
+  azure_service_name: Azure VMware Solution
+  target_pct: 99.9
+microsoft.avs/privateclouds/maintenances:
+  azure_service_name: Azure VMware Solution
+  target_pct: 99.9
+microsoft.avs/privateclouds/scriptexecutions:
+  azure_service_name: Azure VMware Solution
+  target_pct: 99.9
+microsoft.avs/privateclouds/scriptpackages:
+  azure_service_name: Azure VMware Solution
+  target_pct: 99.9
+microsoft.avs/privateclouds/scriptpackages/scriptcmdlets:
+  azure_service_name: Azure VMware Solution
+  target_pct: 99.9
+microsoft.avs/privateclouds/workloadnetworks:
+  azure_service_name: Azure VMware Solution
+  target_pct: 99.9
+microsoft.avs/privateclouds/workloadnetworks/dhcpconfigurations:
+  azure_service_name: Azure VMware Solution
+  target_pct: 99.9
+microsoft.avs/privateclouds/workloadnetworks/dnsservices:
+  azure_service_name: Azure VMware Solution
+  target_pct: 99.9
+microsoft.avs/privateclouds/workloadnetworks/dnszones:
+  azure_service_name: Azure VMware Solution
+  target_pct: 99.9
+microsoft.avs/privateclouds/workloadnetworks/gateways:
+  azure_service_name: Azure VMware Solution
+  target_pct: 99.9
+microsoft.avs/privateclouds/workloadnetworks/portmirroringprofiles:
+  azure_service_name: Azure VMware Solution
+  target_pct: 99.9
+microsoft.avs/privateclouds/workloadnetworks/publicips:
+  azure_service_name: Azure VMware Solution
+  target_pct: 99.9
+microsoft.avs/privateclouds/workloadnetworks/segments:
+  azure_service_name: Azure VMware Solution
+  target_pct: 99.9
+microsoft.avs/privateclouds/workloadnetworks/virtualmachines:
+  azure_service_name: Azure VMware Solution
+  target_pct: 99.9
+microsoft.avs/privateclouds/workloadnetworks/vmgroups:
+  azure_service_name: Azure VMware Solution
+  target_pct: 99.9
+microsoft.azureactivedirectory/associatedbillingaccounts:
+  azure_service_name: Microsoft Entra ID B2C
+  target_pct: 99.99
+microsoft.azureactivedirectory/b2cdirectories:
+  azure_service_name: Microsoft Entra ID B2C
+  target_pct: 99.99
+microsoft.azureactivedirectory/b2ctenants:
+  azure_service_name: Microsoft Entra ID B2C
+  target_pct: 99.99
+microsoft.azureactivedirectory/ciamdirectories:
+  azure_service_name: Microsoft Entra ID B2C
+  target_pct: 99.99
+microsoft.azureactivedirectory/directories:
+  azure_service_name: Microsoft Entra ID B2C
+  target_pct: 99.99
+microsoft.azureactivedirectory/guestusages:
+  azure_service_name: Microsoft Entra ID B2C
+  target_pct: 99.99
+microsoft.batch/batchaccounts:
+  azure_service_name: Batch
+  target_pct: 99.9
+microsoft.batch/batchaccounts/certificateoperationresults:
+  azure_service_name: Batch
+  target_pct: 99.9
+microsoft.batch/batchaccounts/certificates:
+  azure_service_name: Batch
+  target_pct: 99.9
+microsoft.batch/batchaccounts/detectors:
+  azure_service_name: Batch
+  target_pct: 99.9
+microsoft.batch/batchaccounts/networksecurityperimeterconfigurationoperationresults:
+  azure_service_name: Batch
+  target_pct: 99.9
+microsoft.batch/batchaccounts/pooloperationresults:
+  azure_service_name: Batch
+  target_pct: 99.9
+microsoft.batch/batchaccounts/pools:
+  azure_service_name: Batch
+  target_pct: 99.9
+microsoft.batch/batchaccounts/privateendpointconnectionproxyresults:
+  azure_service_name: Batch
+  target_pct: 99.9
+microsoft.batch/batchaccounts/privateendpointconnectionresults:
+  azure_service_name: Batch
+  target_pct: 99.9
+microsoft.botservice/botservices:
+  azure_service_name: Azure Bot Service
+  target_pct: 99.9
+microsoft.botservice/botservices/channels:
+  azure_service_name: Azure Bot Service
+  target_pct: 99.9
+microsoft.botservice/botservices/connections:
+  azure_service_name: Azure Bot Service
+  target_pct: 99.9
+microsoft.botservice/botservices/privateendpointconnectionproxies:
+  azure_service_name: Azure Bot Service
+  target_pct: 99.9
+microsoft.botservice/botservices/privateendpointconnections:
+  azure_service_name: Azure Bot Service
+  target_pct: 99.9
+microsoft.botservice/botservices/privatelinkresources:
+  azure_service_name: Azure Bot Service
+  target_pct: 99.9
+microsoft.botservice/hostsettings:
+  azure_service_name: Azure Bot Service
+  target_pct: 99.9
+microsoft.botservice/listauthserviceproviders:
+  azure_service_name: Azure Bot Service
+  target_pct: 99.9
+microsoft.botservice/listqnamakerendpointkeys:
+  azure_service_name: Azure Bot Service
+  target_pct: 99.9
+microsoft.cache/redis:
+  azure_service_name: Azure Cache for Redis
+  target_pct: 99.9
+microsoft.cache/redis/eventgridfilters:
+  azure_service_name: Azure Cache for Redis
+  target_pct: 99.9
+microsoft.cache/redis/privateendpointconnectionproxies:
+  azure_service_name: Azure Cache for Redis
+  target_pct: 99.9
+microsoft.cache/redis/privateendpointconnectionproxies/validate:
+  azure_service_name: Azure Cache for Redis
+  target_pct: 99.9
+microsoft.cache/redis/privateendpointconnections:
+  azure_service_name: Azure Cache for Redis
+  target_pct: 99.9
+microsoft.cache/redis/privatelinkresources:
+  azure_service_name: Azure Cache for Redis
+  target_pct: 99.9
+microsoft.cache/redisenterprise:
+  azure_service_name: Azure Cache for Redis
+  target_pct: 99.9
+microsoft.cache/redisenterprise/databases:
+  azure_service_name: Azure Cache for Redis
+  target_pct: 99.9
+microsoft.cache/redisenterprise/privateendpointconnectionproxies:
+  azure_service_name: Azure Cache for Redis
+  target_pct: 99.9
+microsoft.cache/redisenterprise/privateendpointconnectionproxies/validate:
+  azure_service_name: Azure Cache for Redis
+  target_pct: 99.9
+microsoft.cache/redisenterprise/privateendpointconnections:
+  azure_service_name: Azure Cache for Redis
+  target_pct: 99.9
+microsoft.cache/redisenterprise/privatelinkresources:
+  azure_service_name: Azure Cache for Redis
+  target_pct: 99.9
+microsoft.cdn/canmigrate:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/cdnwebapplicationfirewallmanagedrulesets:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/cdnwebapplicationfirewallpolicies:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/checkendpointnameavailability:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/checkresourceusage:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/edgeactionoperations:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/edgeactions:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/edgeactions/attachments:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/edgeactions/executionfilters:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/edgeactions/versioncodepackage:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/edgeactions/versions:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/edgenodes:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/migrate:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/operationresults/cdnwebapplicationfirewallpolicyresults:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/operationresults/profileresults:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/operationresults/profileresults/afdendpointresults:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/operationresults/profileresults/afdendpointresults/routeresults:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/operationresults/profileresults/authpolicyresults:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/operationresults/profileresults/customdomainresults:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/operationresults/profileresults/endpointresults:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/operationresults/profileresults/endpointresults/customdomainresults:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/operationresults/profileresults/endpointresults/origingroupresults:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/operationresults/profileresults/endpointresults/originresults:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/operationresults/profileresults/origingroupresults:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/operationresults/profileresults/origingroupresults/originresults:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/operationresults/profileresults/policyresults:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/operationresults/profileresults/rulesetresults:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/operationresults/profileresults/rulesetresults/ruleresults:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/operationresults/profileresults/secretresults:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/operationresults/profileresults/securitypolicyresults:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/operationresults/profileresults/targetgroupresults:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/operationresults/profileresults/tunnelpolicyresults:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/profiles:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/profiles/afdendpoints:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/profiles/afdendpoints/routes:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/profiles/authpolicies:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/profiles/customdomains:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/profiles/deploymentversions:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/profiles/edgeextensiongroups:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/profiles/endpoints:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/profiles/endpoints/customdomains:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/profiles/endpoints/origingroups:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/profiles/endpoints/origins:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/profiles/keygroups:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/profiles/networkpolicies:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/profiles/origingroups:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/profiles/origingroups/origins:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/profiles/policies:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/profiles/rulesets:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/profiles/rulesets/rules:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/profiles/secrets:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/profiles/securitypolicies:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/profiles/targetgroups:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/profiles/tunnelpolicies:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/validateprobe:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.cdn/validatesecret:
+  azure_service_name: Content Delivery Network
+  target_pct: 99.9
+microsoft.changeanalysis/changes:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.changeanalysis/changesnapshots:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.changeanalysis/computechanges:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.changeanalysis/resourcechanges:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.cognitiveservices/accounts:
+  azure_service_name: Cognitive Services
+  target_pct: 99.9
+microsoft.cognitiveservices/accounts/capabilityhosts:
+  azure_service_name: Cognitive Services
+  target_pct: 99.9
+microsoft.cognitiveservices/accounts/connections:
+  azure_service_name: Cognitive Services
+  target_pct: 99.9
+microsoft.cognitiveservices/accounts/encryptionscopes:
+  azure_service_name: Cognitive Services
+  target_pct: 99.9
+microsoft.cognitiveservices/accounts/managednetworks:
+  azure_service_name: Cognitive Services
+  target_pct: 99.9
+microsoft.cognitiveservices/accounts/networksecurityperimeterassociationproxies:
+  azure_service_name: Cognitive Services
+  target_pct: 99.9
+microsoft.cognitiveservices/accounts/privateendpointconnectionproxies:
+  azure_service_name: Cognitive Services
+  target_pct: 99.9
+microsoft.cognitiveservices/accounts/privateendpointconnections:
+  azure_service_name: Cognitive Services
+  target_pct: 99.9
+microsoft.cognitiveservices/accounts/privatelinkresources:
+  azure_service_name: Cognitive Services
+  target_pct: 99.9
+microsoft.cognitiveservices/accounts/projects:
+  azure_service_name: Cognitive Services
+  target_pct: 99.9
+microsoft.cognitiveservices/accounts/projects/applications:
+  azure_service_name: Cognitive Services
+  target_pct: 99.9
+microsoft.cognitiveservices/accounts/projects/capabilityhosts:
+  azure_service_name: Cognitive Services
+  target_pct: 99.9
+microsoft.cognitiveservices/accounts/projects/connections:
+  azure_service_name: Cognitive Services
+  target_pct: 99.9
+microsoft.cognitiveservices/attestationdefinitions:
+  azure_service_name: Cognitive Services
+  target_pct: 99.9
+microsoft.cognitiveservices/attestations:
+  azure_service_name: Cognitive Services
+  target_pct: 99.9
+microsoft.cognitiveservices/calculatemodelcapacity:
+  azure_service_name: Cognitive Services
+  target_pct: 99.9
+microsoft.cognitiveservices/checkdomainavailability:
+  azure_service_name: Cognitive Services
+  target_pct: 99.9
+microsoft.cognitiveservices/commitmentplans:
+  azure_service_name: Cognitive Services
+  target_pct: 99.9
+microsoft.cognitiveservices/deletedaccounts:
+  azure_service_name: Cognitive Services
+  target_pct: 99.9
+microsoft.cognitiveservices/modelcapacities:
+  azure_service_name: Cognitive Services
+  target_pct: 99.9
+microsoft.cognitiveservices/quotatiers:
+  azure_service_name: Cognitive Services
+  target_pct: 99.9
+microsoft.cognitiveservices/raiexternalsafetyproviders:
+  azure_service_name: Cognitive Services
+  target_pct: 99.9
+microsoft.cognitiveservices/raipolicy:
+  azure_service_name: Cognitive Services
+  target_pct: 99.9
+microsoft.communication/communicationservices:
+  azure_service_name: Azure Communication Services
+  target_pct: 99.9
+microsoft.communication/communicationservices/eventgridfilters:
+  azure_service_name: Azure Communication Services
+  target_pct: 99.9
+microsoft.communication/communicationservices/smtpusernames:
+  azure_service_name: Azure Communication Services
+  target_pct: 99.9
+microsoft.communication/emailservices:
+  azure_service_name: Azure Communication Services
+  target_pct: 99.9
+microsoft.communication/emailservices/domains:
+  azure_service_name: Azure Communication Services
+  target_pct: 99.9
+microsoft.communication/emailservices/domains/senderusernames:
+  azure_service_name: Azure Communication Services
+  target_pct: 99.9
+microsoft.communication/emailservices/domains/suppressionlists:
+  azure_service_name: Azure Communication Services
+  target_pct: 99.9
+microsoft.communication/emailservices/domains/suppressionlists/suppressionlistaddresses:
+  azure_service_name: Azure Communication Services
+  target_pct: 99.9
+microsoft.compute/availabilitysets:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/capacityreservationgroups:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/capacityreservationgroups/capacityreservations:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/cloudservices:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/cloudservices/networkinterfaces:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/cloudservices/publicipaddresses:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/cloudservices/roleinstances:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/cloudservices/roleinstances/networkinterfaces:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/cloudservices/roles:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/diskaccesses:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/diskencryptionsets:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/disks:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/galleries:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/galleries/applications:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/galleries/applications/versions:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/galleries/images:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/galleries/images/versions:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/galleries/invmaccesscontrolprofiles:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/galleries/invmaccesscontrolprofiles/versions:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/hostgroups:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/hostgroups/hosts:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/images:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/payloadgroups:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/proximityplacementgroups:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/restorepointcollections:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/restorepointcollections/restorepoints:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/restorepointcollections/restorepoints/diskrestorepoints:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/sharedvmimages:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/sharedvmimages/versions:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/snapshots:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/sshpublickeys:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/virtualmachines:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/virtualmachines/diagnosticruncommands:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/virtualmachines/extensions:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/virtualmachines/metricdefinitions:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/virtualmachines/runcommands:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/virtualmachines/vmapplications:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/virtualmachinescalesets:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/virtualmachinescalesets/applications:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/virtualmachinescalesets/disks:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/virtualmachinescalesets/eventgridfilters:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/virtualmachinescalesets/extensions:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/virtualmachinescalesets/networkinterfaces:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/virtualmachinescalesets/publicipaddresses:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/virtualmachinescalesets/virtualmachines:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/virtualmachinescalesets/virtualmachines/extensions:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.compute/virtualmachinescalesets/virtualmachines/networkinterfaces:
+  azure_service_name: Virtual Machines
+  target_pct: 99.99
+microsoft.containerinstance/containergroupprofiles:
+  azure_service_name: Container Instances
+  target_pct: 99.9
+microsoft.containerinstance/containergroups:
+  azure_service_name: Container Instances
+  target_pct: 99.9
+microsoft.containerinstance/ngroups:
+  azure_service_name: Container Instances
+  target_pct: 99.9
+microsoft.containerinstance/serviceassociationlinks:
+  azure_service_name: Container Instances
+  target_pct: 99.9
+microsoft.containerregistry/registries:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/agentpools:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/agentpools/listqueuestatus:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/agentpoolsoperationresults:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/cacherules:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/connectedregistries:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/connectedregistries/deactivate:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/connectedregistries/resync:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/credentialsets:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/eventgridfilters:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/exportpipelines:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/generatecredentials:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/importimage:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/importpipelines:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/listbuildsourceuploadurl:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/listcredentials:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/listpolicies:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/listusages:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/pipelineruns:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/privateendpointconnectionproxies:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/privateendpointconnectionproxies/validate:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/privateendpointconnections:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/privatelinkresources:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/regeneratecredential:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/replications:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/runs:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/runs/cancel:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/runs/listlogsasurl:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/schedulerun:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/scopemaps:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/taskruns:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/taskruns/listdetails:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/tasks:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/tasks/listdetails:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/tokens:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/updatepolicies:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/webhooks:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/webhooks/getcallbackconfig:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/webhooks/listevents:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerregistry/registries/webhooks/ping:
+  azure_service_name: Container Registry
+  target_pct: 99.9
+microsoft.containerservice/deploymentsafeguards:
+  azure_service_name: Azure Kubernetes Service (AKS)
+  target_pct: 99.95
+microsoft.containerservice/fleetmemberships:
+  azure_service_name: Azure Kubernetes Service (AKS)
+  target_pct: 99.95
+microsoft.containerservice/fleets:
+  azure_service_name: Azure Kubernetes Service (AKS)
+  target_pct: 99.95
+microsoft.containerservice/fleets/autoupgradeprofiles:
+  azure_service_name: Azure Kubernetes Service (AKS)
+  target_pct: 99.95
+microsoft.containerservice/fleets/gates:
+  azure_service_name: Azure Kubernetes Service (AKS)
+  target_pct: 99.95
+microsoft.containerservice/fleets/managednamespaces:
+  azure_service_name: Azure Kubernetes Service (AKS)
+  target_pct: 99.95
+microsoft.containerservice/fleets/members:
+  azure_service_name: Azure Kubernetes Service (AKS)
+  target_pct: 99.95
+microsoft.containerservice/fleets/updateruns:
+  azure_service_name: Azure Kubernetes Service (AKS)
+  target_pct: 99.95
+microsoft.containerservice/fleets/updatestrategies:
+  azure_service_name: Azure Kubernetes Service (AKS)
+  target_pct: 99.95
+microsoft.containerservice/managedclusters:
+  azure_service_name: Azure Kubernetes Service (AKS)
+  target_pct: 99.95
+microsoft.containerservice/managedclusters/eventgridfilters:
+  azure_service_name: Azure Kubernetes Service (AKS)
+  target_pct: 99.95
+microsoft.containerservice/managedclusters/managednamespaces:
+  azure_service_name: Azure Kubernetes Service (AKS)
+  target_pct: 99.95
+microsoft.containerservice/managedclusters/meshmemberships:
+  azure_service_name: Azure Kubernetes Service (AKS)
+  target_pct: 99.95
+microsoft.containerservice/managedclustersnapshots:
+  azure_service_name: Azure Kubernetes Service (AKS)
+  target_pct: 99.95
+microsoft.containerservice/snapshots:
+  azure_service_name: Azure Kubernetes Service (AKS)
+  target_pct: 99.95
+microsoft.databricks/accessconnectors:
+  azure_service_name: Azure Databricks
+  target_pct: 99.95
+microsoft.databricks/workspaces:
+  azure_service_name: Azure Databricks
+  target_pct: 99.95
+microsoft.databricks/workspaces/dbworkspaces:
+  azure_service_name: Azure Databricks
+  target_pct: 99.95
+microsoft.databricks/workspaces/virtualnetworkpeerings:
+  azure_service_name: Azure Databricks
+  target_pct: 99.95
+microsoft.datafactory/factories:
+  azure_service_name: Data Factory
+  target_pct: 99.9
+microsoft.datafactory/factories/integrationruntimes:
+  azure_service_name: Data Factory
+  target_pct: 99.9
+microsoft.datafactory/factories/privateendpointconnectionproxies:
+  azure_service_name: Data Factory
+  target_pct: 99.9
+microsoft.datalakeanalytics/accounts:
+  azure_service_name: Data Lake Analytics
+  target_pct: 99.9
+microsoft.datalakeanalytics/accounts/datalakestoreaccounts:
+  azure_service_name: Data Lake Analytics
+  target_pct: 99.9
+microsoft.datalakeanalytics/accounts/storageaccounts:
+  azure_service_name: Data Lake Analytics
+  target_pct: 99.9
+microsoft.datalakeanalytics/accounts/storageaccounts/containers:
+  azure_service_name: Data Lake Analytics
+  target_pct: 99.9
+microsoft.datalakeanalytics/accounts/storageaccounts/containers/listsastokens:
+  azure_service_name: Data Lake Analytics
+  target_pct: 99.9
+microsoft.datalakeanalytics/accounts/transferanalyticsunits:
+  azure_service_name: Data Lake Analytics
+  target_pct: 99.9
+microsoft.datalakeanalytics/accounts/transferecoanalyticsunits:
+  azure_service_name: Data Lake Analytics
+  target_pct: 99.9
+microsoft.dbformariadb/servers:
+  azure_service_name: Azure Database for MariaDB
+  target_pct: 99.99
+microsoft.dbformariadb/servers/advisors:
+  azure_service_name: Azure Database for MariaDB
+  target_pct: 99.99
+microsoft.dbformariadb/servers/keys:
+  azure_service_name: Azure Database for MariaDB
+  target_pct: 99.99
+microsoft.dbformariadb/servers/privateendpointconnectionproxies:
+  azure_service_name: Azure Database for MariaDB
+  target_pct: 99.99
+microsoft.dbformariadb/servers/privateendpointconnections:
+  azure_service_name: Azure Database for MariaDB
+  target_pct: 99.99
+microsoft.dbformariadb/servers/privatelinkresources:
+  azure_service_name: Azure Database for MariaDB
+  target_pct: 99.99
+microsoft.dbformariadb/servers/querytexts:
+  azure_service_name: Azure Database for MariaDB
+  target_pct: 99.99
+microsoft.dbformariadb/servers/recoverableservers:
+  azure_service_name: Azure Database for MariaDB
+  target_pct: 99.99
+microsoft.dbformariadb/servers/resetqueryperformanceinsightdata:
+  azure_service_name: Azure Database for MariaDB
+  target_pct: 99.99
+microsoft.dbformariadb/servers/start:
+  azure_service_name: Azure Database for MariaDB
+  target_pct: 99.99
+microsoft.dbformariadb/servers/stop:
+  azure_service_name: Azure Database for MariaDB
+  target_pct: 99.99
+microsoft.dbformariadb/servers/topquerystatistics:
+  azure_service_name: Azure Database for MariaDB
+  target_pct: 99.99
+microsoft.dbformariadb/servers/virtualnetworkrules:
+  azure_service_name: Azure Database for MariaDB
+  target_pct: 99.99
+microsoft.dbformariadb/servers/waitstatistics:
+  azure_service_name: Azure Database for MariaDB
+  target_pct: 99.99
+microsoft.dbformysql/assessformigration:
+  azure_service_name: Azure Database for MySQL
+  target_pct: 99.99
+microsoft.dbformysql/flexibleservers:
+  azure_service_name: Azure Database for MySQL
+  target_pct: 99.99
+microsoft.dbformysql/getprivatednszonesuffix:
+  azure_service_name: Azure Database for MySQL
+  target_pct: 99.99
+microsoft.dbformysql/servers:
+  azure_service_name: Azure Database for MySQL
+  target_pct: 99.99
+microsoft.dbformysql/servers/advisors:
+  azure_service_name: Azure Database for MySQL
+  target_pct: 99.99
+microsoft.dbformysql/servers/keys:
+  azure_service_name: Azure Database for MySQL
+  target_pct: 99.99
+microsoft.dbformysql/servers/privateendpointconnectionproxies:
+  azure_service_name: Azure Database for MySQL
+  target_pct: 99.99
+microsoft.dbformysql/servers/privateendpointconnections:
+  azure_service_name: Azure Database for MySQL
+  target_pct: 99.99
+microsoft.dbformysql/servers/privatelinkresources:
+  azure_service_name: Azure Database for MySQL
+  target_pct: 99.99
+microsoft.dbformysql/servers/querytexts:
+  azure_service_name: Azure Database for MySQL
+  target_pct: 99.99
+microsoft.dbformysql/servers/recoverableservers:
+  azure_service_name: Azure Database for MySQL
+  target_pct: 99.99
+microsoft.dbformysql/servers/resetqueryperformanceinsightdata:
+  azure_service_name: Azure Database for MySQL
+  target_pct: 99.99
+microsoft.dbformysql/servers/topquerystatistics:
+  azure_service_name: Azure Database for MySQL
+  target_pct: 99.99
+microsoft.dbformysql/servers/upgrade:
+  azure_service_name: Azure Database for MySQL
+  target_pct: 99.99
+microsoft.dbformysql/servers/virtualnetworkrules:
+  azure_service_name: Azure Database for MySQL
+  target_pct: 99.99
+microsoft.dbformysql/servers/waitstatistics:
+  azure_service_name: Azure Database for MySQL
+  target_pct: 99.99
+microsoft.dbforpostgresql/availableengineversions:
+  azure_service_name: Azure Database for PostgreSQL
+  target_pct: 99.99
+microsoft.dbforpostgresql/flexibleservers:
+  azure_service_name: Azure Database for PostgreSQL
+  target_pct: 99.99
+microsoft.dbforpostgresql/flexibleservers/migrations:
+  azure_service_name: Azure Database for PostgreSQL
+  target_pct: 99.99
+microsoft.dbforpostgresql/getprivatednszonesuffix:
+  azure_service_name: Azure Database for PostgreSQL
+  target_pct: 99.99
+microsoft.dbforpostgresql/servergroupsv2:
+  azure_service_name: Azure Database for PostgreSQL
+  target_pct: 99.99
+microsoft.dbforpostgresql/servers:
+  azure_service_name: Azure Database for PostgreSQL
+  target_pct: 99.99
+microsoft.dbforpostgresql/servers/advisors:
+  azure_service_name: Azure Database for PostgreSQL
+  target_pct: 99.99
+microsoft.dbforpostgresql/servers/keys:
+  azure_service_name: Azure Database for PostgreSQL
+  target_pct: 99.99
+microsoft.dbforpostgresql/servers/privateendpointconnectionproxies:
+  azure_service_name: Azure Database for PostgreSQL
+  target_pct: 99.99
+microsoft.dbforpostgresql/servers/privateendpointconnections:
+  azure_service_name: Azure Database for PostgreSQL
+  target_pct: 99.99
+microsoft.dbforpostgresql/servers/privatelinkresources:
+  azure_service_name: Azure Database for PostgreSQL
+  target_pct: 99.99
+microsoft.dbforpostgresql/servers/querytexts:
+  azure_service_name: Azure Database for PostgreSQL
+  target_pct: 99.99
+microsoft.dbforpostgresql/servers/recoverableservers:
+  azure_service_name: Azure Database for PostgreSQL
+  target_pct: 99.99
+microsoft.dbforpostgresql/servers/resetqueryperformanceinsightdata:
+  azure_service_name: Azure Database for PostgreSQL
+  target_pct: 99.99
+microsoft.dbforpostgresql/servers/topquerystatistics:
+  azure_service_name: Azure Database for PostgreSQL
+  target_pct: 99.99
+microsoft.dbforpostgresql/servers/virtualnetworkrules:
+  azure_service_name: Azure Database for PostgreSQL
+  target_pct: 99.99
+microsoft.dbforpostgresql/servers/waitstatistics:
+  azure_service_name: Azure Database for PostgreSQL
+  target_pct: 99.99
+microsoft.devcenter/checkscopednameavailability:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/devcenters:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/devcenters/attachednetworks:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/devcenters/catalogs:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/devcenters/catalogs/devboxdefinitions:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/devcenters/catalogs/environmentdefinitions:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/devcenters/catalogs/imagedefinitions:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/devcenters/catalogs/imagedefinitions/builds:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/devcenters/catalogs/tasks:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/devcenters/curationprofiles:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/devcenters/devboxdefinitions:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/devcenters/environmenttypes:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/devcenters/galleries:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/devcenters/galleries/images:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/devcenters/galleries/images/versions:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/devcenters/images:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/devcenters/projectpolicies:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/networkconnections:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/networkconnections/healthchecks:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/networkconnections/outboundnetworkdependenciesendpoints:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/projects:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/projects/allowedenvironmenttypes:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/projects/attachednetworks:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/projects/catalogs:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/projects/catalogs/environmentdefinitions:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/projects/catalogs/imagedefinitions:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/projects/catalogs/imagedefinitions/builds:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/projects/devboxdefinitions:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/projects/environmenttypes:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/projects/images:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/projects/images/versions:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/projects/listskus:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/projects/pools:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devcenter/projects/pools/schedules:
+  azure_service_name: Microsoft Dev Box
+  target_pct: 99.9
+microsoft.devices/checkprovisioningservicenameavailability:
+  azure_service_name: Azure IoT Hub
+  target_pct: 99.9
+microsoft.devices/iothubs:
+  azure_service_name: Azure IoT Hub
+  target_pct: 99.9
+microsoft.devices/iothubs/eventgridfilters:
+  azure_service_name: Azure IoT Hub
+  target_pct: 99.9
+microsoft.devices/iothubs/failover:
+  azure_service_name: Azure IoT Hub
+  target_pct: 99.9
+microsoft.devices/iothubs/securitysettings:
+  azure_service_name: Azure IoT Hub
+  target_pct: 99.9
+microsoft.devices/provisioningserviceoperationresults:
+  azure_service_name: Azure IoT Hub Device Provisioning Service
+  target_pct: 99.9
+microsoft.devices/provisioningservices:
+  azure_service_name: Azure IoT Hub Device Provisioning Service
+  target_pct: 99.9
+microsoft.devices/usages:
+  azure_service_name: Azure IoT Hub
+  target_pct: 99.9
+microsoft.devtestlab/labs:
+  azure_service_name: Azure Lab Services
+  target_pct: 99.9
+microsoft.devtestlab/labs/environments:
+  azure_service_name: Azure Lab Services
+  target_pct: 99.9
+microsoft.devtestlab/labs/servicerunners:
+  azure_service_name: Azure Lab Services
+  target_pct: 99.9
+microsoft.devtestlab/labs/virtualmachines:
+  azure_service_name: Azure Lab Services
+  target_pct: 99.9
+microsoft.devtestlab/schedules:
+  azure_service_name: Azure Lab Services
+  target_pct: 99.9
+microsoft.digitaltwins/digitaltwinsinstances:
+  azure_service_name: Azure Digital Twins
+  target_pct: 99.9
+microsoft.digitaltwins/digitaltwinsinstances/endpoints:
+  azure_service_name: Azure Digital Twins
+  target_pct: 99.9
+microsoft.digitaltwins/digitaltwinsinstances/timeseriesdatabaseconnections:
+  azure_service_name: Azure Digital Twins
+  target_pct: 99.9
+microsoft.documentdb/cassandraclusters:
+  azure_service_name: Azure Cosmos DB
+  target_pct: 99.99
+microsoft.documentdb/databaseaccountnames:
+  azure_service_name: Azure Cosmos DB
+  target_pct: 99.99
+microsoft.documentdb/databaseaccounts:
+  azure_service_name: Azure Cosmos DB
+  target_pct: 99.99
+microsoft.documentdb/databaseaccounts/encryptionscopes:
+  azure_service_name: Azure Cosmos DB
+  target_pct: 99.99
+microsoft.documentdb/fleets:
+  azure_service_name: Azure Cosmos DB
+  target_pct: 99.99
+microsoft.documentdb/managedresources:
+  azure_service_name: Azure Cosmos DB
+  target_pct: 99.99
+microsoft.documentdb/mongoclusters:
+  azure_service_name: Azure Cosmos DB
+  target_pct: 99.99
+microsoft.documentdb/operationsstatus:
+  azure_service_name: Azure Cosmos DB
+  target_pct: 99.99
+microsoft.documentdb/restorabledatabaseaccounts:
+  azure_service_name: Azure Cosmos DB
+  target_pct: 99.99
+microsoft.documentdb/throughputpools:
+  azure_service_name: Azure Cosmos DB
+  target_pct: 99.99
+microsoft.documentdb/throughputpools/throughputpoolaccounts:
+  azure_service_name: Azure Cosmos DB
+  target_pct: 99.99
+microsoft.domainregistration/checkdomainavailability:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.domainregistration/domains:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.domainregistration/domains/domainownershipidentifiers:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.domainregistration/generatessorequest:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.domainregistration/listdomainrecommendations:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.domainregistration/topleveldomains:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.domainregistration/validatedomainregistrationinformation:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.elasticsan/elasticsans:
+  azure_service_name: Elastic SAN
+  target_pct: 99.99
+microsoft.elasticsan/elasticsans/volumegroups:
+  azure_service_name: Elastic SAN
+  target_pct: 99.99
+microsoft.eventgrid/domains:
+  azure_service_name: Event Grid
+  target_pct: 99.99
+microsoft.eventgrid/domains/topics:
+  azure_service_name: Event Grid
+  target_pct: 99.99
+microsoft.eventgrid/eventsubscriptions:
+  azure_service_name: Event Grid
+  target_pct: 99.99
+microsoft.eventgrid/extensiontopics:
+  azure_service_name: Event Grid
+  target_pct: 99.99
+microsoft.eventgrid/namespaces:
+  azure_service_name: Event Grid
+  target_pct: 99.99
+microsoft.eventgrid/operationsstatus:
+  azure_service_name: Event Grid
+  target_pct: 99.99
+microsoft.eventgrid/partnerconfigurations:
+  azure_service_name: Event Grid
+  target_pct: 99.99
+microsoft.eventgrid/partnerdestinations:
+  azure_service_name: Event Grid
+  target_pct: 99.99
+microsoft.eventgrid/partnernamespaces:
+  azure_service_name: Event Grid
+  target_pct: 99.99
+microsoft.eventgrid/partnernamespaces/channels:
+  azure_service_name: Event Grid
+  target_pct: 99.99
+microsoft.eventgrid/partnernamespaces/eventchannels:
+  azure_service_name: Event Grid
+  target_pct: 99.99
+microsoft.eventgrid/partnerregistrations:
+  azure_service_name: Event Grid
+  target_pct: 99.99
+microsoft.eventgrid/partnertopics:
+  azure_service_name: Event Grid
+  target_pct: 99.99
+microsoft.eventgrid/partnertopics/eventsubscriptions:
+  azure_service_name: Event Grid
+  target_pct: 99.99
+microsoft.eventgrid/systemtopics:
+  azure_service_name: Event Grid
+  target_pct: 99.99
+microsoft.eventgrid/systemtopics/eventsubscriptions:
+  azure_service_name: Event Grid
+  target_pct: 99.99
+microsoft.eventgrid/topics:
+  azure_service_name: Event Grid
+  target_pct: 99.99
+microsoft.eventgrid/topictypes:
+  azure_service_name: Event Grid
+  target_pct: 99.99
+microsoft.eventgrid/verifiedpartners:
+  azure_service_name: Event Grid
+  target_pct: 99.99
+microsoft.eventhub/availableclusterregions:
+  azure_service_name: Event Hubs
+  target_pct: 99.95
+microsoft.eventhub/checknamespaceavailability:
+  azure_service_name: Event Hubs
+  target_pct: 99.95
+microsoft.eventhub/clusters:
+  azure_service_name: Event Hubs
+  target_pct: 99.95
+microsoft.eventhub/namespaces:
+  azure_service_name: Event Hubs
+  target_pct: 99.95
+microsoft.eventhub/namespaces/applicationgroups:
+  azure_service_name: Event Hubs
+  target_pct: 99.95
+microsoft.eventhub/namespaces/authorizationrules:
+  azure_service_name: Event Hubs
+  target_pct: 99.95
+microsoft.eventhub/namespaces/disasterrecoveryconfigs:
+  azure_service_name: Event Hubs
+  target_pct: 99.95
+microsoft.eventhub/namespaces/eventhubs:
+  azure_service_name: Event Hubs
+  target_pct: 99.95
+microsoft.eventhub/namespaces/eventhubs/authorizationrules:
+  azure_service_name: Event Hubs
+  target_pct: 99.95
+microsoft.eventhub/namespaces/eventhubs/consumergroups:
+  azure_service_name: Event Hubs
+  target_pct: 99.95
+microsoft.eventhub/namespaces/hoboconfigurations:
+  azure_service_name: Event Hubs
+  target_pct: 99.95
+microsoft.eventhub/namespaces/networkrulesets:
+  azure_service_name: Event Hubs
+  target_pct: 99.95
+microsoft.eventhub/namespaces/networksecurityperimeterassociationproxies:
+  azure_service_name: Event Hubs
+  target_pct: 99.95
+microsoft.eventhub/namespaces/networksecurityperimeterconfigurations:
+  azure_service_name: Event Hubs
+  target_pct: 99.95
+microsoft.eventhub/namespaces/privateendpointconnectionproxies:
+  azure_service_name: Event Hubs
+  target_pct: 99.95
+microsoft.eventhub/namespaces/privateendpointconnections:
+  azure_service_name: Event Hubs
+  target_pct: 99.95
+microsoft.eventhub/sku:
+  azure_service_name: Event Hubs
+  target_pct: 99.95
+microsoft.hanaonazure/hanainstances:
+  azure_service_name: SAP HANA on Azure Large Instances
+  target_pct: 99.99
+microsoft.hardwaresecuritymodules/cloudhsmclusters:
+  azure_service_name: Azure Cloud HSM
+  target_pct: 99.9
+microsoft.hdinsight/clusters:
+  azure_service_name: HDInsight
+  target_pct: 99.9
+microsoft.hdinsight/clusters/applications:
+  azure_service_name: HDInsight
+  target_pct: 99.9
+microsoft.healthcareapis/services:
+  azure_service_name: Azure API for FHIR
+  target_pct: 99.9
+microsoft.healthcareapis/services/privateendpointconnectionproxies:
+  azure_service_name: Azure API for FHIR
+  target_pct: 99.9
+microsoft.healthcareapis/services/privateendpointconnections:
+  azure_service_name: Azure API for FHIR
+  target_pct: 99.9
+microsoft.healthcareapis/services/privatelinkresources:
+  azure_service_name: Azure API for FHIR
+  target_pct: 99.9
+microsoft.insights/actiongroups:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/actiongroups/networksecurityperimeterassociationproxies:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/actiongroups/networksecurityperimeterconfigurations:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/activitylogalerts:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/autoscalesettings:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components/aggregate:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components/analyticsitems:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components/annotations:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components/api:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components/apikeys:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components/currentbillingfeatures:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components/defaultworkitemconfig:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components/events:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components/exportconfiguration:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components/extendqueries:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components/favorites:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components/featurecapabilities:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components/getavailablebillingfeatures:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components/linkedstorageaccounts:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components/metadata:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components/metricdefinitions:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components/metrics:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components/move:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components/myanalyticsitems:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components/myfavorites:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components/pricingplans:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components/proactivedetectionconfigs:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components/purge:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components/query:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components/quotastatus:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components/syntheticmonitorlocations:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components/webtests:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/components/workitemconfigs:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/createnotifications:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/datacollectionendpoints:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/datacollectionendpoints/networksecurityperimeterassociationproxies:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/datacollectionendpoints/networksecurityperimeterconfigurations:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/datacollectionendpoints/scopedprivatelinkproxies:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/datacollectionruleassociations:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/datacollectionrules:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/deletedworkbooks:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/diagnosticsettings:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/diagnosticsettingscategories:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/eventcategories:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/eventtypes:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/extendeddiagnosticsettings:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/generatelivetoken:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/listmigrationdate:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/logdefinitions:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/logprofiles:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/logs:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/metricalerts:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/metricbaselines:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/metricbatch:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/metricdefinitions:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/metricnamespaces:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/metrics:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/migratealertrules:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/migratetonewpricingmodel:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/monitoredobjects:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/notificationstatus:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/privatelinkscopeoperationstatuses:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/privatelinkscopes:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/privatelinkscopes/privateendpointconnectionproxies:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/privatelinkscopes/privateendpointconnections:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/privatelinkscopes/scopedresources:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/rollbacktolegacypricingmodel:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/scheduledqueryrules:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/scheduledqueryrules/networksecurityperimeterassociationproxies:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/scheduledqueryrules/networksecurityperimeterconfigurations:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/tenantactiongroups:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/topology:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/transactions:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/vminsightsonboardingstatuses:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/webtests:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/webtests/gettestresultfile:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/workbooks:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.insights/workbooktemplates:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.iotcentral/apptemplates:
+  azure_service_name: Azure IoT Central
+  target_pct: 99.9
+microsoft.iotcentral/checksubdomainavailability:
+  azure_service_name: Azure IoT Central
+  target_pct: 99.9
+microsoft.iotcentral/iotapps:
+  azure_service_name: Azure IoT Central
+  target_pct: 99.9
+microsoft.keyvault/checkmhsmnameavailability:
+  azure_service_name: Key Vault
+  target_pct: 99.99
+microsoft.keyvault/deletedmanagedhsms:
+  azure_service_name: Key Vault
+  target_pct: 99.99
+microsoft.keyvault/deletedvaults:
+  azure_service_name: Key Vault
+  target_pct: 99.99
+microsoft.keyvault/managedhsms:
+  azure_service_name: Key Vault
+  target_pct: 99.99
+microsoft.keyvault/managedhsms/keys:
+  azure_service_name: Key Vault
+  target_pct: 99.99
+microsoft.keyvault/managedhsms/keys/versions:
+  azure_service_name: Key Vault
+  target_pct: 99.99
+microsoft.keyvault/vaults:
+  azure_service_name: Key Vault
+  target_pct: 99.99
+microsoft.keyvault/vaults/accesspolicies:
+  azure_service_name: Key Vault
+  target_pct: 99.99
+microsoft.keyvault/vaults/eventgridfilters:
+  azure_service_name: Key Vault
+  target_pct: 99.99
+microsoft.keyvault/vaults/keys:
+  azure_service_name: Key Vault
+  target_pct: 99.99
+microsoft.keyvault/vaults/keys/versions:
+  azure_service_name: Key Vault
+  target_pct: 99.99
+microsoft.keyvault/vaults/secrets:
+  azure_service_name: Key Vault
+  target_pct: 99.99
+microsoft.kubernetes/connectedclusters:
+  azure_service_name: Azure Arc-enabled Kubernetes
+  target_pct: 99.9
+microsoft.kubernetesconfiguration/extensions:
+  azure_service_name: Azure Arc-enabled Kubernetes
+  target_pct: 99.9
+microsoft.kubernetesconfiguration/extensiontypes:
+  azure_service_name: Azure Arc-enabled Kubernetes
+  target_pct: 99.9
+microsoft.kubernetesconfiguration/fluxconfigurations:
+  azure_service_name: Azure Arc-enabled Kubernetes
+  target_pct: 99.9
+microsoft.kubernetesconfiguration/namespaces:
+  azure_service_name: Azure Arc-enabled Kubernetes
+  target_pct: 99.9
+microsoft.kubernetesconfiguration/privatelinkscopes:
+  azure_service_name: Azure Arc-enabled Kubernetes
+  target_pct: 99.9
+microsoft.kubernetesconfiguration/privatelinkscopes/privateendpointconnectionproxies:
+  azure_service_name: Azure Arc-enabled Kubernetes
+  target_pct: 99.9
+microsoft.kubernetesconfiguration/privatelinkscopes/privateendpointconnections:
+  azure_service_name: Azure Arc-enabled Kubernetes
+  target_pct: 99.9
+microsoft.kubernetesconfiguration/sourcecontrolconfigurations:
+  azure_service_name: Azure Arc-enabled Kubernetes
+  target_pct: 99.9
+microsoft.kusto/clusters:
+  azure_service_name: Azure Data Explorer
+  target_pct: 99.9
+microsoft.kusto/clusters/attacheddatabaseconfigurations:
+  azure_service_name: Azure Data Explorer
+  target_pct: 99.9
+microsoft.kusto/clusters/databases:
+  azure_service_name: Azure Data Explorer
+  target_pct: 99.9
+microsoft.kusto/clusters/databases/dataconnections:
+  azure_service_name: Azure Data Explorer
+  target_pct: 99.9
+microsoft.kusto/clusters/databases/eventhubconnections:
+  azure_service_name: Azure Data Explorer
+  target_pct: 99.9
+microsoft.kusto/clusters/databases/principalassignments:
+  azure_service_name: Azure Data Explorer
+  target_pct: 99.9
+microsoft.kusto/clusters/databases/scripts:
+  azure_service_name: Azure Data Explorer
+  target_pct: 99.9
+microsoft.kusto/clusters/managedprivateendpoints:
+  azure_service_name: Azure Data Explorer
+  target_pct: 99.9
+microsoft.kusto/clusters/principalassignments:
+  azure_service_name: Azure Data Explorer
+  target_pct: 99.9
+microsoft.kusto/clusters/sandboxcustomimages:
+  azure_service_name: Azure Data Explorer
+  target_pct: 99.9
+microsoft.labservices/labaccounts:
+  azure_service_name: Azure Lab Services
+  target_pct: 99.9
+microsoft.labservices/labplans:
+  azure_service_name: Azure Lab Services
+  target_pct: 99.9
+microsoft.labservices/labs:
+  azure_service_name: Azure Lab Services
+  target_pct: 99.9
+microsoft.labservices/users:
+  azure_service_name: Azure Lab Services
+  target_pct: 99.9
+microsoft.loadtestservice/loadtestmappings:
+  azure_service_name: Azure Load Testing
+  target_pct: 99.9
+microsoft.loadtestservice/loadtestprofilemappings:
+  azure_service_name: Azure Load Testing
+  target_pct: 99.9
+microsoft.loadtestservice/loadtests:
+  azure_service_name: Azure Load Testing
+  target_pct: 99.9
+microsoft.loadtestservice/loadtests/limits:
+  azure_service_name: Azure Load Testing
+  target_pct: 99.9
+microsoft.loadtestservice/loadtests/outboundnetworkdependenciesendpoints:
+  azure_service_name: Azure Load Testing
+  target_pct: 99.9
+microsoft.loadtestservice/playwrightworkspaces:
+  azure_service_name: Azure Load Testing
+  target_pct: 99.9
+microsoft.loadtestservice/playwrightworkspaces/quotas:
+  azure_service_name: Azure Load Testing
+  target_pct: 99.9
+microsoft.logic/businessprocesses:
+  azure_service_name: Logic Apps
+  target_pct: 99.9
+microsoft.logic/integrationaccounts:
+  azure_service_name: Logic Apps
+  target_pct: 99.9
+microsoft.logic/integrationserviceenvironments:
+  azure_service_name: Logic Apps
+  target_pct: 99.9
+microsoft.logic/integrationserviceenvironments/managedapis:
+  azure_service_name: Logic Apps
+  target_pct: 99.9
+microsoft.logic/templates:
+  azure_service_name: Logic Apps
+  target_pct: 99.9
+microsoft.logic/workflows:
+  azure_service_name: Logic Apps
+  target_pct: 99.9
+microsoft.machinelearningservices/capacityreservationgroups:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/inferencemodels:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/registries:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/registries/codes:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/registries/codes/versions:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/registries/components:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/registries/components/versions:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/registries/data:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/registries/data/versions:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/registries/datareferences:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/registries/datareferences/versions:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/registries/environments:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/registries/environments/versions:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/registries/models:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/registries/models/versions:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/virtualclusters:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/batchendpoints:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/batchendpoints/deployments:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/capabilityhosts:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/codes:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/codes/versions:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/components:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/components/versions:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/computes:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/data:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/data/versions:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/datasets:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/datastores:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/endpoints:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/environments:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/environments/versions:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/eventgridfilters:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/featuresets:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/featuresets/versions:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/featurestoreentities:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/featurestoreentities/versions:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/inferencepools:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/inferencepools/endpoints:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/inferencepools/groups:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/jobs:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/labelingjobs:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/linkedservices:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/managednetworks:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/marketplacesubscriptions:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/models:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/models/versions:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/onlineendpoints:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/onlineendpoints/deployments:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/onlineendpoints/deployments/skus:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/schedules:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/serverlessendpoints:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.machinelearningservices/workspaces/services:
+  azure_service_name: Azure Machine Learning
+  target_pct: 99.9
+microsoft.maps/accounts:
+  azure_service_name: Azure Maps
+  target_pct: 99.9
+microsoft.maps/accounts/creators:
+  azure_service_name: Azure Maps
+  target_pct: 99.9
+microsoft.maps/accounts/eventgridfilters:
+  azure_service_name: Azure Maps
+  target_pct: 99.9
+microsoft.maps/accounts/privateendpointconnectionproxies:
+  azure_service_name: Azure Maps
+  target_pct: 99.9
+microsoft.maps/accounts/privateendpointconnections:
+  azure_service_name: Azure Maps
+  target_pct: 99.9
+microsoft.monitor/accounts:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.monitor/accounts/issues:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.monitor/investigations:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.monitor/pipelinegroups:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.monitor/settings:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.monitor/slis:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.monitor/slisignalpreview:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.netapp/netappaccounts:
+  azure_service_name: Azure NetApp Files
+  target_pct: 99.99
+microsoft.netapp/netappaccounts/accountbackups:
+  azure_service_name: Azure NetApp Files
+  target_pct: 99.99
+microsoft.netapp/netappaccounts/backuppolicies:
+  azure_service_name: Azure NetApp Files
+  target_pct: 99.99
+microsoft.netapp/netappaccounts/backupvaults:
+  azure_service_name: Azure NetApp Files
+  target_pct: 99.99
+microsoft.netapp/netappaccounts/backupvaults/backups:
+  azure_service_name: Azure NetApp Files
+  target_pct: 99.99
+microsoft.netapp/netappaccounts/capacitypools:
+  azure_service_name: Azure NetApp Files
+  target_pct: 99.99
+microsoft.netapp/netappaccounts/capacitypools/volumes:
+  azure_service_name: Azure NetApp Files
+  target_pct: 99.99
+microsoft.netapp/netappaccounts/capacitypools/volumes/backups:
+  azure_service_name: Azure NetApp Files
+  target_pct: 99.99
+microsoft.netapp/netappaccounts/capacitypools/volumes/mounttargets:
+  azure_service_name: Azure NetApp Files
+  target_pct: 99.99
+microsoft.netapp/netappaccounts/capacitypools/volumes/ransomwarereports:
+  azure_service_name: Azure NetApp Files
+  target_pct: 99.99
+microsoft.netapp/netappaccounts/capacitypools/volumes/snapshots:
+  azure_service_name: Azure NetApp Files
+  target_pct: 99.99
+microsoft.netapp/netappaccounts/capacitypools/volumes/volumequotarules:
+  azure_service_name: Azure NetApp Files
+  target_pct: 99.99
+microsoft.netapp/netappaccounts/quotalimits:
+  azure_service_name: Azure NetApp Files
+  target_pct: 99.99
+microsoft.netapp/netappaccounts/snapshotpolicies:
+  azure_service_name: Azure NetApp Files
+  target_pct: 99.99
+microsoft.netapp/netappaccounts/vaults:
+  azure_service_name: Azure NetApp Files
+  target_pct: 99.99
+microsoft.netapp/netappaccounts/volumegroups:
+  azure_service_name: Azure NetApp Files
+  target_pct: 99.99
+microsoft.network/applicationgatewayavailablerequestheaders:
+  azure_service_name: Application Gateway
+  target_pct: 99.95
+microsoft.network/applicationgatewayavailableresponseheaders:
+  azure_service_name: Application Gateway
+  target_pct: 99.95
+microsoft.network/applicationgatewayavailableservervariables:
+  azure_service_name: Application Gateway
+  target_pct: 99.95
+microsoft.network/applicationgatewayavailablessloptions:
+  azure_service_name: Application Gateway
+  target_pct: 99.95
+microsoft.network/applicationgatewayavailablewafrulesets:
+  azure_service_name: Application Gateway
+  target_pct: 99.95
+microsoft.network/applicationgateways:
+  azure_service_name: Application Gateway
+  target_pct: 99.95
+microsoft.network/applicationgatewaywebapplicationfirewallpolicies:
+  azure_service_name: Application Gateway
+  target_pct: 99.95
+microsoft.network/assist:
+  azure_service_name: Application Gateway
+  target_pct: 99.95
+microsoft.network/azurefirewallfqdntags:
+  azure_service_name: Azure Firewall
+  target_pct: 99.95
+microsoft.network/azurefirewalls:
+  azure_service_name: Azure Firewall
+  target_pct: 99.95
+microsoft.network/azurewebcategories:
+  azure_service_name: Azure Firewall
+  target_pct: 99.95
+microsoft.network/bastionhosts:
+  azure_service_name: Azure Bastion
+  target_pct: 99.95
+microsoft.network/bgpservicecommunities:
+  azure_service_name: Azure ExpressRoute
+  target_pct: 99.95
+microsoft.network/checkfrontdoornameavailability:
+  azure_service_name: Azure Front Door Service
+  target_pct: 99.99
+microsoft.network/checktrafficmanagernameavailability:
+  azure_service_name: Traffic Manager
+  target_pct: 100.0
+microsoft.network/checktrafficmanagernameavailabilityv2:
+  azure_service_name: Traffic Manager
+  target_pct: 100.0
+microsoft.network/cloudserviceslots:
+  azure_service_name: Application Gateway
+  target_pct: 99.95
+microsoft.network/connections:
+  azure_service_name: VPN Gateway
+  target_pct: 99.9
+microsoft.network/copilot:
+  azure_service_name: Application Gateway
+  target_pct: 99.95
+microsoft.network/ddosprotectionplans:
+  azure_service_name: Azure DDoS Protection
+  target_pct: 99.99
+microsoft.network/dnsforwardingrulesets:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnsforwardingrulesets/forwardingrules:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnsforwardingrulesets/virtualnetworklinks:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnsoperationresults:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnsoperationstatuses:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnsresolverdomainlists:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnsresolverdomainlists/bulk:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnsresolverpolicies:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnsresolverpolicies/dnssecurityrules:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnsresolverpolicies/virtualnetworklinks:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnsresolvers:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnsresolvers/inboundendpoints:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnsresolvers/outboundendpoints:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnszones:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnszones/a:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnszones/aaaa:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnszones/all:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnszones/caa:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnszones/cname:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnszones/dnssecconfigs:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnszones/ds:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnszones/mx:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnszones/naptr:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnszones/ns:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnszones/ptr:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnszones/recordsets:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnszones/soa:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnszones/srv:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnszones/tlsa:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/dnszones/txt:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/expressroutecircuits:
+  azure_service_name: Azure ExpressRoute
+  target_pct: 99.95
+microsoft.network/expressroutegateways:
+  azure_service_name: Azure ExpressRoute
+  target_pct: 99.95
+microsoft.network/expressrouteports:
+  azure_service_name: Azure ExpressRoute
+  target_pct: 99.95
+microsoft.network/expressrouteportslocations:
+  azure_service_name: Azure ExpressRoute
+  target_pct: 99.95
+microsoft.network/expressrouteproviderports:
+  azure_service_name: Azure ExpressRoute
+  target_pct: 99.95
+microsoft.network/expressrouteserviceproviders:
+  azure_service_name: Azure ExpressRoute
+  target_pct: 99.95
+microsoft.network/firewallpolicies:
+  azure_service_name: Azure Firewall
+  target_pct: 99.95
+microsoft.network/frontdooroperationresults:
+  azure_service_name: Azure Front Door Service
+  target_pct: 99.99
+microsoft.network/frontdoors:
+  azure_service_name: Azure Front Door Service
+  target_pct: 99.99
+microsoft.network/frontdoors/frontendendpoints:
+  azure_service_name: Azure Front Door Service
+  target_pct: 99.99
+microsoft.network/frontdoors/frontendendpoints/customhttpsconfiguration:
+  azure_service_name: Azure Front Door Service
+  target_pct: 99.99
+microsoft.network/frontdoorwebapplicationfirewallmanagedrulesets:
+  azure_service_name: Azure Front Door Service
+  target_pct: 99.99
+microsoft.network/frontdoorwebapplicationfirewallpolicies:
+  azure_service_name: Azure Front Door Service
+  target_pct: 99.99
+microsoft.network/getdnsresourcereference:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/internalnotify:
+  azure_service_name: Application Gateway
+  target_pct: 99.95
+microsoft.network/internalpublicipaddresses:
+  azure_service_name: Application Gateway
+  target_pct: 99.95
+microsoft.network/ipgroups:
+  azure_service_name: Azure Firewall
+  target_pct: 99.95
+microsoft.network/loadbalancers:
+  azure_service_name: Load Balancer
+  target_pct: 99.99
+microsoft.network/localnetworkgateways:
+  azure_service_name: VPN Gateway
+  target_pct: 99.9
+microsoft.network/natgateways:
+  azure_service_name: Virtual Network NAT
+  target_pct: 99.99
+microsoft.network/networkexperimentprofiles:
+  azure_service_name: Azure Front Door Service
+  target_pct: 99.99
+microsoft.network/networkgroupmemberships:
+  azure_service_name: Virtual Network Manager
+  target_pct: 99.9
+microsoft.network/networkintentpolicies:
+  azure_service_name: Virtual Network Manager
+  target_pct: 99.9
+microsoft.network/networkmanagerconnections:
+  azure_service_name: Virtual Network Manager
+  target_pct: 99.9
+microsoft.network/networkmanagers:
+  azure_service_name: Virtual Network Manager
+  target_pct: 99.9
+microsoft.network/networkmanagers/ipampools:
+  azure_service_name: Virtual Network Manager
+  target_pct: 99.9
+microsoft.network/networkmanagers/verifierworkspaces:
+  azure_service_name: Virtual Network Manager
+  target_pct: 99.9
+microsoft.network/networksecurityperimeters:
+  azure_service_name: Azure Private Link
+  target_pct: 99.99
+microsoft.network/networkvirtualappliances:
+  azure_service_name: Azure Firewall
+  target_pct: 99.95
+microsoft.network/networkvirtualapplianceskus:
+  azure_service_name: Azure Firewall
+  target_pct: 99.95
+microsoft.network/networkwatchers:
+  azure_service_name: Network Watcher
+  target_pct: 99.9
+microsoft.network/networkwatchers/agents:
+  azure_service_name: Network Watcher
+  target_pct: 99.9
+microsoft.network/networkwatchers/connectionanalyzers:
+  azure_service_name: Network Watcher
+  target_pct: 99.9
+microsoft.network/networkwatchers/connectionmonitors:
+  azure_service_name: Network Watcher
+  target_pct: 99.9
+microsoft.network/networkwatchers/flowlogs:
+  azure_service_name: Network Watcher
+  target_pct: 99.9
+microsoft.network/networkwatchers/pingmeshes:
+  azure_service_name: Network Watcher
+  target_pct: 99.9
+microsoft.network/p2svpngateways:
+  azure_service_name: VPN Gateway
+  target_pct: 99.9
+microsoft.network/privatednsoperationresults:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/privatednsoperationstatuses:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/privatednszones:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/privatednszones/a:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/privatednszones/aaaa:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/privatednszones/all:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/privatednszones/cname:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/privatednszones/mx:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/privatednszones/ptr:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/privatednszones/soa:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/privatednszones/srv:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/privatednszones/txt:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/privatednszones/virtualnetworklinks:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/privatednszonesinternal:
+  azure_service_name: Azure DNS
+  target_pct: 99.99
+microsoft.network/privateendpointredirectmaps:
+  azure_service_name: Azure Private Link
+  target_pct: 99.99
+microsoft.network/privateendpoints:
+  azure_service_name: Azure Private Link
+  target_pct: 99.99
+microsoft.network/privateendpoints/privatelinkserviceproxies:
+  azure_service_name: Azure Private Link
+  target_pct: 99.99
+microsoft.network/privatelinkservices:
+  azure_service_name: Azure Private Link
+  target_pct: 99.99
+microsoft.network/queryexpressrouteportsbandwidth:
+  azure_service_name: Azure ExpressRoute
+  target_pct: 99.95
+microsoft.network/routefilters:
+  azure_service_name: Azure ExpressRoute
+  target_pct: 99.95
+microsoft.network/securitypartnerproviders:
+  azure_service_name: Azure Firewall
+  target_pct: 99.95
+microsoft.network/trafficmanagergeographichierarchies:
+  azure_service_name: Traffic Manager
+  target_pct: 100.0
+microsoft.network/trafficmanagerprofiles:
+  azure_service_name: Traffic Manager
+  target_pct: 100.0
+microsoft.network/trafficmanagerprofiles/azureendpoints:
+  azure_service_name: Traffic Manager
+  target_pct: 100.0
+microsoft.network/trafficmanagerprofiles/externalendpoints:
+  azure_service_name: Traffic Manager
+  target_pct: 100.0
+microsoft.network/trafficmanagerprofiles/heatmaps:
+  azure_service_name: Traffic Manager
+  target_pct: 100.0
+microsoft.network/trafficmanagerprofiles/nestedendpoints:
+  azure_service_name: Traffic Manager
+  target_pct: 100.0
+microsoft.network/trafficmanagerprofiles/validatelink:
+  azure_service_name: Traffic Manager
+  target_pct: 100.0
+microsoft.network/trafficmanagerusermetricskeys:
+  azure_service_name: Traffic Manager
+  target_pct: 100.0
+microsoft.network/virtualhubs:
+  azure_service_name: Virtual WAN
+  target_pct: 99.95
+microsoft.network/virtualnetworkgateways:
+  azure_service_name: VPN Gateway
+  target_pct: 99.9
+microsoft.network/virtualrouters:
+  azure_service_name: Azure Route Server
+  target_pct: 99.95
+microsoft.network/virtualwans:
+  azure_service_name: Virtual WAN
+  target_pct: 99.95
+microsoft.network/vpngateways:
+  azure_service_name: VPN Gateway
+  target_pct: 99.9
+microsoft.network/vpnserverconfigurations:
+  azure_service_name: VPN Gateway
+  target_pct: 99.9
+microsoft.network/vpnsites:
+  azure_service_name: VPN Gateway
+  target_pct: 99.9
+microsoft.notificationhubs/checknamespaceavailability:
+  azure_service_name: Notification Hubs
+  target_pct: 99.9
+microsoft.notificationhubs/namespaces:
+  azure_service_name: Notification Hubs
+  target_pct: 99.9
+microsoft.notificationhubs/namespaces/notificationhubs:
+  azure_service_name: Notification Hubs
+  target_pct: 99.9
+microsoft.operationalinsights/clusters:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.operationalinsights/deletedworkspaces:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.operationalinsights/linktargets:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.operationalinsights/querypacks:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.operationalinsights/storageinsightconfigs:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.operationalinsights/workspaces:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.operationalinsights/workspaces/api:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.operationalinsights/workspaces/dataexports:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.operationalinsights/workspaces/datasources:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.operationalinsights/workspaces/linkedservices:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.operationalinsights/workspaces/linkedstorageaccounts:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.operationalinsights/workspaces/metadata:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.operationalinsights/workspaces/networksecurityperimeterassociationproxies:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.operationalinsights/workspaces/networksecurityperimeterconfigurations:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.operationalinsights/workspaces/purge:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.operationalinsights/workspaces/query:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.operationalinsights/workspaces/scopedprivatelinkproxies:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.operationalinsights/workspaces/storageinsightconfigs:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.operationalinsights/workspaces/summarylogs:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.operationalinsights/workspaces/tables:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.operationsmanagement/solutions:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.operationsmanagement/views:
+  azure_service_name: Azure Monitor
+  target_pct: 99.9
+microsoft.purview/accounts:
+  azure_service_name: Microsoft Purview
+  target_pct: 99.9
+microsoft.purview/accounts/kafkaconfigurations:
+  azure_service_name: Microsoft Purview
+  target_pct: 99.9
+microsoft.purview/getdefaultaccount:
+  azure_service_name: Microsoft Purview
+  target_pct: 99.9
+microsoft.purview/policies:
+  azure_service_name: Microsoft Purview
+  target_pct: 99.9
+microsoft.purview/removedefaultaccount:
+  azure_service_name: Microsoft Purview
+  target_pct: 99.9
+microsoft.purview/setdefaultaccount:
+  azure_service_name: Microsoft Purview
+  target_pct: 99.9
+microsoft.recoveryservices/backupprotecteditems:
+  azure_service_name: Azure Site Recovery
+  target_pct: 99.9
+microsoft.recoveryservices/replicationeligibilityresults:
+  azure_service_name: Azure Site Recovery
+  target_pct: 99.9
+microsoft.recoveryservices/vaults:
+  azure_service_name: Azure Site Recovery
+  target_pct: 99.9
+microsoft.redhatopenshift/openshiftclusters:
+  azure_service_name: Azure Red Hat OpenShift
+  target_pct: 99.95
+microsoft.search/checkservicenameavailability:
+  azure_service_name: Azure AI Search
+  target_pct: 99.9
+microsoft.search/offerings:
+  azure_service_name: Azure AI Search
+  target_pct: 99.9
+microsoft.search/resourcehealthmetadata:
+  azure_service_name: Azure AI Search
+  target_pct: 99.9
+microsoft.search/searchservices:
+  azure_service_name: Azure AI Search
+  target_pct: 99.9
+microsoft.securityinsights/aggregations:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/alertrules:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/alertruletemplates:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/automationrules:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/billingstatistics:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/bookmarks:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/cases:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/confidentialwatchlists:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/contentpackages:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/contentproductpackages:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/contentproducttemplates:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/contenttemplates:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/dataconnectordefinitions:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/dataconnectors:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/dataconnectorscheckrequirements:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/enrichment:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/enrichmentwidgets:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/entities:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/entityqueries:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/entityquerytemplates:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/exportconnections:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/fileimports:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/hunts:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/huntsessions:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/incidents:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/listrepositories:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/metadata:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/mitrecoveragerecords:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/officeconsents:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/onboardingstates:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/overview:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/recommendations:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/securitymlanalyticssettings:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/settings:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/sourcecontrols:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/threatintelligence:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/triggeredanalyticsruleruns:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/watchlists:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/workspacemanagerassignments:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/workspacemanagerconfigurations:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/workspacemanagergroups:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.securityinsights/workspacemanagermembers:
+  azure_service_name: Microsoft Sentinel
+  target_pct: 99.9
+microsoft.servicebus/checknamespaceavailability:
+  azure_service_name: Service Bus
+  target_pct: 99.9
+microsoft.servicebus/namespaces:
+  azure_service_name: Service Bus
+  target_pct: 99.9
+microsoft.servicebus/namespaces/authorizationrules:
+  azure_service_name: Service Bus
+  target_pct: 99.9
+microsoft.servicebus/namespaces/disasterrecoveryconfigs:
+  azure_service_name: Service Bus
+  target_pct: 99.9
+microsoft.servicebus/namespaces/eventgridfilters:
+  azure_service_name: Service Bus
+  target_pct: 99.9
+microsoft.servicebus/namespaces/migrationconfigurations:
+  azure_service_name: Service Bus
+  target_pct: 99.9
+microsoft.servicebus/namespaces/networkrulesets:
+  azure_service_name: Service Bus
+  target_pct: 99.9
+microsoft.servicebus/namespaces/networksecurityperimeterassociationproxies:
+  azure_service_name: Service Bus
+  target_pct: 99.9
+microsoft.servicebus/namespaces/networksecurityperimeterconfigurations:
+  azure_service_name: Service Bus
+  target_pct: 99.9
+microsoft.servicebus/namespaces/privateendpointconnectionproxies:
+  azure_service_name: Service Bus
+  target_pct: 99.9
+microsoft.servicebus/namespaces/privateendpointconnections:
+  azure_service_name: Service Bus
+  target_pct: 99.9
+microsoft.servicebus/namespaces/queues:
+  azure_service_name: Service Bus
+  target_pct: 99.9
+microsoft.servicebus/namespaces/queues/authorizationrules:
+  azure_service_name: Service Bus
+  target_pct: 99.9
+microsoft.servicebus/namespaces/topics:
+  azure_service_name: Service Bus
+  target_pct: 99.9
+microsoft.servicebus/namespaces/topics/authorizationrules:
+  azure_service_name: Service Bus
+  target_pct: 99.9
+microsoft.servicebus/namespaces/topics/subscriptions:
+  azure_service_name: Service Bus
+  target_pct: 99.9
+microsoft.servicebus/namespaces/topics/subscriptions/rules:
+  azure_service_name: Service Bus
+  target_pct: 99.9
+microsoft.servicebus/premiummessagingregions:
+  azure_service_name: Service Bus
+  target_pct: 99.9
+microsoft.servicebus/sku:
+  azure_service_name: Service Bus
+  target_pct: 99.9
+microsoft.signalrservice/signalr:
+  azure_service_name: Azure SignalR Service
+  target_pct: 99.9
+microsoft.signalrservice/signalr/customdomains:
+  azure_service_name: Azure SignalR Service
+  target_pct: 99.9
+microsoft.signalrservice/signalr/eventgridfilters:
+  azure_service_name: Azure SignalR Service
+  target_pct: 99.9
+microsoft.signalrservice/signalr/replicas:
+  azure_service_name: Azure SignalR Service
+  target_pct: 99.9
+microsoft.signalrservice/webpubsub:
+  azure_service_name: Azure SignalR Service
+  target_pct: 99.9
+microsoft.signalrservice/webpubsub/customdomains:
+  azure_service_name: Azure SignalR Service
+  target_pct: 99.9
+microsoft.signalrservice/webpubsub/replicas:
+  azure_service_name: Azure SignalR Service
+  target_pct: 99.9
+microsoft.sql/instancepools:
+  azure_service_name: Azure SQL Managed Instance
+  target_pct: 99.995
+microsoft.sql/managedinstances:
+  azure_service_name: Azure SQL Managed Instance
+  target_pct: 99.995
+microsoft.sql/managedinstances/administrators:
+  azure_service_name: Azure SQL Managed Instance
+  target_pct: 99.995
+microsoft.sql/managedinstances/advancedthreatprotectionsettings:
+  azure_service_name: Azure SQL Managed Instance
+  target_pct: 99.995
+microsoft.sql/managedinstances/databases:
+  azure_service_name: Azure SQL Managed Instance
+  target_pct: 99.995
+microsoft.sql/managedinstances/databases/advancedthreatprotectionsettings:
+  azure_service_name: Azure SQL Managed Instance
+  target_pct: 99.995
+microsoft.sql/managedinstances/databases/backuplongtermretentionpolicies:
+  azure_service_name: Azure SQL Managed Instance
+  target_pct: 99.995
+microsoft.sql/managedinstances/databases/ledgerdigestuploads:
+  azure_service_name: Azure SQL Managed Instance
+  target_pct: 99.995
+microsoft.sql/managedinstances/databases/vulnerabilityassessments:
+  azure_service_name: Azure SQL Managed Instance
+  target_pct: 99.995
+microsoft.sql/managedinstances/dnsaliases:
+  azure_service_name: Azure SQL Managed Instance
+  target_pct: 99.995
+microsoft.sql/managedinstances/metricdefinitions:
+  azure_service_name: Azure SQL Managed Instance
+  target_pct: 99.995
+microsoft.sql/managedinstances/metrics:
+  azure_service_name: Azure SQL Managed Instance
+  target_pct: 99.995
+microsoft.sql/managedinstances/recoverabledatabases:
+  azure_service_name: Azure SQL Managed Instance
+  target_pct: 99.995
+microsoft.sql/managedinstances/sqlagent:
+  azure_service_name: Azure SQL Managed Instance
+  target_pct: 99.995
+microsoft.sql/managedinstances/startstopschedules:
+  azure_service_name: Azure SQL Managed Instance
+  target_pct: 99.995
+microsoft.sql/managedinstances/tdecertificates:
+  azure_service_name: Azure SQL Managed Instance
+  target_pct: 99.995
+microsoft.sql/managedinstances/vulnerabilityassessments:
+  azure_service_name: Azure SQL Managed Instance
+  target_pct: 99.995
+microsoft.sql/servers:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/administratoroperationresults:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/administrators:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/advancedthreatprotectionsettings:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/advisors:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/aggregateddatabasemetrics:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/auditingsettings:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/automatictuning:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/communicationlinks:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/connectionpolicies:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases/advancedthreatprotectionsettings:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases/advisors:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases/auditingsettings:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases/auditrecords:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases/automatictuning:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases/backuplongtermretentionpolicies:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases/backupshorttermretentionpolicies:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases/datamaskingpolicies:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases/datamaskingpolicies/rules:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases/extensions:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases/geobackuppolicies:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases/ledgerdigestuploads:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases/metricdefinitions:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases/metrics:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases/recommendedsensitivitylabels:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases/replicationlinks:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases/securityalertpolicies:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases/sqlvulnerabilityassessments:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases/syncgroups:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases/syncgroups/syncmembers:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases/topqueries:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases/topqueries/querytext:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases/transparentdataencryption:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases/vulnerabilityassessment:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases/vulnerabilityassessments:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases/vulnerabilityassessmentscans:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases/vulnerabilityassessmentsettings:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databases/workloadgroups:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/databasesecuritypolicies:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/devopsauditingsettings:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/disasterrecoveryconfiguration:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/dnsaliases:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/elasticpoolestimates:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/elasticpools:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/elasticpools/advisors:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/elasticpools/metricdefinitions:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/elasticpools/metrics:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/encryptionprotector:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/extendedauditingsettings:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/failovergroups:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/failovergroups/tryplannedbeforeforcedfailover:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/import:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/importexportoperationresults:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/jobaccounts:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/jobagents:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/jobagents/jobs:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/jobagents/jobs/executions:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/jobagents/jobs/steps:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/jobagents/privateendpoints:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/keys:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/recommendedelasticpools:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/recoverabledatabases:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/restorabledroppeddatabases:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/securityalertpolicies:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/serviceobjectives:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/sqlvulnerabilityassessments:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/syncagents:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/tdecertificates:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/usages:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/virtualnetworkrules:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/servers/vulnerabilityassessments:
+  azure_service_name: Azure SQL Database
+  target_pct: 99.995
+microsoft.sql/virtualclusters:
+  azure_service_name: Azure SQL Managed Instance
+  target_pct: 99.995
+microsoft.sqlvirtualmachine/sqlvirtualmachinegroups:
+  azure_service_name: SQL Server on Azure Virtual Machines
+  target_pct: 99.99
+microsoft.sqlvirtualmachine/sqlvirtualmachinegroups/availabilitygrouplisteners:
+  azure_service_name: SQL Server on Azure Virtual Machines
+  target_pct: 99.99
+microsoft.sqlvirtualmachine/sqlvirtualmachines:
+  azure_service_name: SQL Server on Azure Virtual Machines
+  target_pct: 99.99
+microsoft.storage/deletedaccounts:
+  azure_service_name: Storage
+  target_pct: 99.9
+microsoft.storage/storageaccounts:
+  azure_service_name: Storage
+  target_pct: 99.9
+microsoft.storage/storageaccounts/blobservices:
+  azure_service_name: Storage
+  target_pct: 99.9
+microsoft.storage/storageaccounts/encryptionscopes:
+  azure_service_name: Storage
+  target_pct: 99.9
+microsoft.storage/storageaccounts/fileservices:
+  azure_service_name: Storage
+  target_pct: 99.9
+microsoft.storage/storageaccounts/listaccountsas:
+  azure_service_name: Storage
+  target_pct: 99.9
+microsoft.storage/storageaccounts/listservicesas:
+  azure_service_name: Storage
+  target_pct: 99.9
+microsoft.storage/storageaccounts/queueservices:
+  azure_service_name: Storage
+  target_pct: 99.9
+microsoft.storage/storageaccounts/reports:
+  azure_service_name: Storage
+  target_pct: 99.9
+microsoft.storage/storageaccounts/services:
+  azure_service_name: Storage
+  target_pct: 99.9
+microsoft.storage/storageaccounts/services/metricdefinitions:
+  azure_service_name: Storage
+  target_pct: 99.9
+microsoft.storage/storageaccounts/storagetaskassignments:
+  azure_service_name: Storage
+  target_pct: 99.9
+microsoft.storage/storageaccounts/storagetaskassignments/reports:
+  azure_service_name: Storage
+  target_pct: 99.9
+microsoft.storage/storageaccounts/tableservices:
+  azure_service_name: Storage
+  target_pct: 99.9
+microsoft.storage/storagetasks:
+  azure_service_name: Storage
+  target_pct: 99.9
+microsoft.storage/usages:
+  azure_service_name: Storage
+  target_pct: 99.9
+microsoft.storagesync/storagesyncservices:
+  azure_service_name: Storage
+  target_pct: 99.9
+microsoft.storagesync/storagesyncservices/registeredservers:
+  azure_service_name: Storage
+  target_pct: 99.9
+microsoft.storagesync/storagesyncservices/syncgroups:
+  azure_service_name: Storage
+  target_pct: 99.9
+microsoft.storagesync/storagesyncservices/syncgroups/cloudendpoints:
+  azure_service_name: Storage
+  target_pct: 99.9
+microsoft.storagesync/storagesyncservices/syncgroups/serverendpoints:
+  azure_service_name: Storage
+  target_pct: 99.9
+microsoft.storagesync/storagesyncservices/workflows:
+  azure_service_name: Storage
+  target_pct: 99.9
+microsoft.streamanalytics/clusters:
+  azure_service_name: Azure Stream Analytics
+  target_pct: 99.9
+microsoft.streamanalytics/clusters/privateendpoints:
+  azure_service_name: Azure Stream Analytics
+  target_pct: 99.9
+microsoft.streamanalytics/streamingjobs:
+  azure_service_name: Azure Stream Analytics
+  target_pct: 99.9
+microsoft.synapse/kustooperations:
+  azure_service_name: Azure Synapse Analytics
+  target_pct: 99.9
+microsoft.synapse/privatelinkhubs:
+  azure_service_name: Azure Synapse Analytics
+  target_pct: 99.9
+microsoft.synapse/workspaces:
+  azure_service_name: Azure Synapse Analytics
+  target_pct: 99.9
+microsoft.synapse/workspaces/bigdatapools:
+  azure_service_name: Azure Synapse Analytics
+  target_pct: 99.9
+microsoft.synapse/workspaces/kustopools:
+  azure_service_name: Azure Synapse Analytics
+  target_pct: 99.9
+microsoft.synapse/workspaces/kustopools/attacheddatabaseconfigurations:
+  azure_service_name: Azure Synapse Analytics
+  target_pct: 99.9
+microsoft.synapse/workspaces/kustopools/databases:
+  azure_service_name: Azure Synapse Analytics
+  target_pct: 99.9
+microsoft.synapse/workspaces/kustopools/databases/dataconnections:
+  azure_service_name: Azure Synapse Analytics
+  target_pct: 99.9
+microsoft.synapse/workspaces/sqldatabases:
+  azure_service_name: Azure Synapse Analytics
+  target_pct: 99.9
+microsoft.synapse/workspaces/sqlpools:
+  azure_service_name: Azure Synapse Analytics
+  target_pct: 99.9
+microsoft.synapse/workspaces/usages:
+  azure_service_name: Azure Synapse Analytics
+  target_pct: 99.9
+microsoft.visualstudio/account:
+  azure_service_name: Azure DevOps
+  target_pct: 99.9
+microsoft.visualstudio/account/extension:
+  azure_service_name: Azure DevOps
+  target_pct: 99.9
+microsoft.visualstudio/account/project:
+  azure_service_name: Azure DevOps
+  target_pct: 99.9
+microsoft.vmware/vcenters/inventoryitems:
+  azure_service_name: Azure VMware Solution
+  target_pct: 99.9
+microsoft.web/aseregions:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/availablestacks:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/billingmeters:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/certificates:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/connectiongateways:
+  azure_service_name: Logic Apps
+  target_pct: 99.9
+microsoft.web/connections:
+  azure_service_name: Logic Apps
+  target_pct: 99.9
+microsoft.web/containerapps:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/customapis:
+  azure_service_name: Logic Apps
+  target_pct: 99.9
+microsoft.web/customhostnamesites:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/deletedsites:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/deploymentlocations:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/functionappstacks:
+  azure_service_name: Azure Functions
+  target_pct: 99.95
+microsoft.web/generategithubaccesstokenforappservicecli:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/georegions:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/hostingenvironments:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/hostingenvironments/eventgridfilters:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/hostingenvironments/multirolepools:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/hostingenvironments/workerpools:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/ishostingenvironmentnameavailable:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/ishostnameavailable:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/isusernameavailable:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/kubeenvironments:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/listsitesassignedtohostname:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/publishingusers:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/recommendations:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/resourcehealthmetadata:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/runtimes:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/serverfarms:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/serverfarms/eventgridfilters:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/serverfarms/firstpartyapps:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/serverfarms/firstpartyapps/keyvaultsettings:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/sites:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/sites/certificates:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/sites/eventgridfilters:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/sites/hostnamebindings:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/sites/networkconfig:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/sites/premieraddons:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/sites/slots:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/sites/slots/certificates:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/sites/slots/eventgridfilters:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/sites/slots/hostnamebindings:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/sites/slots/networkconfig:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/sourcecontrols:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/staticsiteregions:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/staticsites:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/staticsites/builds:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/staticsites/builds/databaseconnections:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/staticsites/builds/linkedbackends:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/staticsites/builds/userprovidedfunctionapps:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/staticsites/databaseconnections:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/staticsites/linkedbackends:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/staticsites/userprovidedfunctionapps:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/validate:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/verifyhostingenvironmentvnet:
+  azure_service_name: App Service
+  target_pct: 99.99
+microsoft.web/webappstacks:
+  azure_service_name: App Service
+  target_pct: 99.99

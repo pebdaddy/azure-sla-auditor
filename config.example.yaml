@@ -1,0 +1,50 @@
+# This file records the business rules: which subscriptions, SLA targets, and services to audit.
+# SLA calculation uses Service Health + Resource Health (Azure's official platform availability).
+# See README.md for setup instructions.
+
+# ---------------------------------------------------------------------------
+# SUBSCRIPTION SCOPE
+# ---------------------------------------------------------------------------
+# Use a list of one or more Azure subscription IDs.
+subscriptions:
+  - 'YOUR-SUBSCRIPTION-ID-HERE'
+  # - 'SECOND-SUBSCRIPTION-ID-HERE'   # Add additional subscriptions as needed
+
+# ---------------------------------------------------------------------------
+# OPTIONAL: RESOURCE TAG FILTER
+# ---------------------------------------------------------------------------
+# Narrow the auditing to resources that carry specific tags.
+# Remove or set to null to audit all resources in the subscriptions above.
+# Examples:
+#   resource_tag_filter: { "Environment": "Production" }
+#   resource_tag_filter: { "SLA-Monitoring": "true" }
+#   resource_tag_filter: { "FINMA-Report": "monthly" }
+resource_tag_filter: null
+
+# ---------------------------------------------------------------------------
+# AUDIT PERIOD
+# ---------------------------------------------------------------------------
+# First day of the month to audit (ISO format: YYYY-MM-DD).
+# Leave blank to default to the current calendar month.
+month_start: "2025-10-01"
+
+# ---------------------------------------------------------------------------
+# OUTPUT & CATALOG PATHS
+# ---------------------------------------------------------------------------
+evidence_out_dir: ./evidence
+sla_targets__master_file_path: ./sla_targets_master.yaml
+
+# ---------------------------------------------------------------------------
+# RESOURCE SUB-TYPES TO AUDIT
+# ---------------------------------------------------------------------------
+# Add the Azure resource sub-types you want to include in SLA calculations.
+# To discover all sub-types deployed in your subscription, run:
+#   python get_resources.py
+# Then copy-paste the relevant output lines below.
+# NB: Only types present in sla_targets_master.yaml catalog of all services will be matched
+# NB: Not all Azure services have SLA targets defined
+resource_sub_types:
+  - microsoft.storage/storageaccounts
+  - microsoft.keyvault/vaults
+  - microsoft.web/sites
+

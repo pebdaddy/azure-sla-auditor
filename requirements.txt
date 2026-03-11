@@ -1,0 +1,5 @@
+pandas>=2.0.0
+pyyaml>=6.0
+azure-identity>=1.12.0
+azure-mgmt-resourcegraph>=8.0.0
+azure-mgmt-resource>=23.0.0
