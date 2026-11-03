@@ -116,9 +116,10 @@
 
 import os, json, datetime as dt
 import logging
+import math
 import re
 from dataclasses import dataclass
-from typing import List, Dict, Tuple, Any
+from typing import List, Dict, Tuple, Any, Optional
 import pandas as pd
 import yaml
 
@@ -502,6 +503,17 @@ def kql_escape_literal(value: Any) -> str:
     """Escape values used inside single-quoted KQL literals."""
     return str(value).replace("'", "''")
 
+
+def normalize_resource_id(resource_id: str) -> str:
+    normalized = resource_id.strip().rstrip("/").lower()
+    return normalized.split("/providers/microsoft.resourcehealth/availabilitystatuses", 1)[0]
+
+
+def utc_datetime(value: dt.datetime) -> dt.datetime:
+    if value.tzinfo is None:
+        return value.replace(tzinfo=dt.timezone.utc)
+    return value.astimezone(dt.timezone.utc)
+
 # -----------------------------
 # Initialize clients - we use Entra and Azure Resource Graph
 # -----------------------------
@@ -553,7 +565,8 @@ def service_health_downtime(subs: List[str], start: dt.datetime, end: dt.datetim
              impactStart = todatetime(p.ImpactStartTime), impactMitigation = todatetime(p.ImpactMitigationTime),
              incidentTitle = tostring(p.Title), incidentSummary = tostring(p.Summary)
     | where eventType == 'ServiceIssue'
-    | where impactStart >= datetime({start.isoformat()}) and impactStart < datetime({end.isoformat()})
+    | where impactStart < datetime({end.isoformat()})
+    | where isnull(impactMitigation) or impactMitigation > datetime({start.isoformat()})
     | project name, id, impactStart, impactMitigation, status, incidentTitle, incidentSummary
     """
 
@@ -620,8 +633,8 @@ def service_health_downtime(subs: List[str], start: dt.datetime, end: dt.datetim
         for ir in ir_rows:
             windows.append(DowntimeWindow(
                 resource_id=ir["targetResourceId"],
-                start_utc=dt.datetime.fromisoformat(r["impactStart"]),
-                end_utc=dt.datetime.fromisoformat(r["impactMitigation"]) if r["impactMitigation"] else end,
+                start_utc=dt.datetime.fromisoformat(r["impactStart"].replace("Z", "+00:00")),
+                end_utc=dt.datetime.fromisoformat(r["impactMitigation"].replace("Z", "+00:00")) if r["impactMitigation"] else end,
                 source="ServiceHealth"
             ))
     return windows, all_incidents
@@ -636,7 +649,7 @@ def resource_health_downtime(subs: List[str], start: dt.datetime, end: dt.dateti
     | extend p = parse_json(properties)
     | extend status = tostring(p.availabilityState),
              occur = todatetime(p.occuredTime), reason = tostring(p.reasonType)
-    | where occur >= datetime({start.isoformat()}) and occur < datetime({end.isoformat()})
+    | where occur < datetime({end.isoformat()})
     | where status in ('Unavailable','Degraded')
     | project id, name, occur, status
     """
@@ -645,16 +658,60 @@ def resource_health_downtime(subs: List[str], start: dt.datetime, end: dt.dateti
     # Note: end time may require subsequent status “Available/Resolved” event lookup; simplified here.
     windows = []
     for r in rows:
-        windows.append(DowntimeWindow(resource_id=r["id"], start_utc=dt.datetime.fromisoformat(r["occur"]),
+        windows.append(DowntimeWindow(resource_id=r["id"], start_utc=dt.datetime.fromisoformat(r["occur"].replace("Z", "+00:00")),
                                       end_utc=end, source="ResourceHealth"))
     return windows
 
 # -----------------------------
 # 4) Compute SLA per service
 # -----------------------------
-def compute_observed_sla(windows: List[DowntimeWindow], total_minutes: float) -> float:
-    downtime = sum([(w.end_utc - w.start_utc).total_seconds()/60.0 for w in windows])
-    return 100.0 * (1.0 - downtime / total_minutes)
+def compute_observed_sla(
+    windows: List[DowntimeWindow],
+    total_minutes: float,
+    resource_ids: Optional[List[str]] = None,
+    period_start: Optional[dt.datetime] = None,
+) -> float:
+    """Average per-resource availability after merging and clipping downtime.
+
+    Supply inventory IDs to include resources without recorded downtime.
+    Without period_start, callers must supply intervals already in-period.
+    """
+    if not math.isfinite(total_minutes) or total_minutes <= 0:
+        raise ValueError("Reporting period must have a positive duration")
+    selected_ids = {
+        normalize_resource_id(resource_id)
+        for resource_id in (resource_ids if resource_ids is not None else [w.resource_id for w in windows])
+    }
+    intervals_by_resource: Dict[str, List[Tuple[dt.datetime, dt.datetime]]] = {
+        resource_id: [] for resource_id in selected_ids
+    }
+    start = utc_datetime(period_start) if period_start is not None else None
+    end = start + dt.timedelta(minutes=total_minutes) if start is not None else None
+    for window in windows:
+        resource_id = normalize_resource_id(window.resource_id)
+        if resource_id not in selected_ids:
+            continue
+        interval_start = utc_datetime(window.start_utc)
+        interval_end = utc_datetime(window.end_utc)
+        if interval_end < interval_start:
+            raise ValueError(f"Downtime interval ends before it starts for {window.resource_id}")
+        if start is not None and end is not None:
+            interval_start = max(interval_start, start)
+            interval_end = min(interval_end, end)
+        if interval_start < interval_end:
+            intervals_by_resource[resource_id].append((interval_start, interval_end))
+
+    availability = []
+    for intervals in intervals_by_resource.values():
+        merged: List[Tuple[dt.datetime, dt.datetime]] = []
+        for interval_start, interval_end in sorted(intervals):
+            if merged and interval_start <= merged[-1][1]:
+                merged[-1] = (merged[-1][0], max(merged[-1][1], interval_end))
+            else:
+                merged.append((interval_start, interval_end))
+        downtime = sum((finish - begin).total_seconds() / 60.0 for begin, finish in merged)
+        availability.append(100.0 * (1.0 - min(downtime, total_minutes) / total_minutes))
+    return sum(availability) / len(availability) if availability else 100.0
 
 
 def order_output_columns(df: pd.DataFrame, preferred_columns: List[str]) -> pd.DataFrame:
@@ -757,14 +814,16 @@ def run():
     all_monitored_resources = set()
     for df in resources_by_target.values():
         if not df.empty:
-            all_monitored_resources.update(df["id"])
+            all_monitored_resources.update(normalize_resource_id(resource_id) for resource_id in df["id"])
 
     # Check for unmonitored incidents
     unmonitored_incidents = []
     platform_wide_incidents = []
 
     for incident in all_service_health_incidents:
-        impacted_resources = set(incident["impacted_resources"])
+        impacted_resources = {
+            normalize_resource_id(resource_id) for resource_id in incident["impacted_resources"]
+        }
 
         # Track platform-wide incidents (e.g., global AFD failure affecting Azure Portal, M365, etc.)
         if incident.get("is_platform_wide_incident", False):
@@ -795,18 +854,21 @@ def run():
         if df.empty:
             target_downtime_map[target_id] = []
             continue
-        resource_ids = set(df["id"])
-        target_downtime_map[target_id] = [w for w in sh + rh if w.resource_id in resource_ids]
+        resource_ids = {normalize_resource_id(resource_id) for resource_id in df["id"]}
+        target_downtime_map[target_id] = [
+            w for w in sh + rh if normalize_resource_id(w.resource_id) in resource_ids
+        ]
 
     # Calculate SLA per service using Service/Resource Health (high fidelity, per-resource-type)
     by_service = []
     for target_id, target_def in matched_targets.items():
         svc_windows = target_downtime_map.get(target_id, [])
-        observed = compute_observed_sla(svc_windows, total_minutes)
+        resource_ids = list(resources_by_target[target_id]["id"])
+        observed = compute_observed_sla(svc_windows, total_minutes, resource_ids, start)
         by_service.append({
             "azure_service_name": target_def.get("azure_service_name", target_id),
             "resource_type": target_def.get("resource_type", ""),
-            "resource_count": len(resources_by_target.get(target_id, pd.DataFrame())),
+            "resource_count": len({normalize_resource_id(resource_id) for resource_id in resource_ids}),
             "observed_sla_pct": round(observed, 5),
             "target_sla_pct": target_def.get("target_pct"),
             "gap_pct": round(observed - target_def.get("target_pct", 99.9), 5),
