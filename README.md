@@ -135,10 +135,18 @@ Note: These artifacts are intended to support customer analysis and audit conver
 ## SLA Calculation Methodology (Indicative)
 
 ```text
-Observed Availability % = (Total Minutes - Downtime Minutes) / Total Minutes * 100
+Per-resource Availability % = (Total Minutes - Unique Downtime Minutes) / Total Minutes * 100
+Resource Sub-type Availability % = Average of per-resource availability
 ```
 
 - Downtime is derived from Azure-published health events.
+- Overlapping and duplicate Service Health and Resource Health windows are merged per resource and clipped to the reporting month.
+- Every distinct resource in the scoped inventory contributes to the average, including resources with no recorded downtime.
+- Resource IDs are matched case-insensitively; Resource Health availability-status suffixes are removed before matching.
+- Service-level reports use resource-count-weighted averages of the resource sub-type results, grouped by service and target SLA.
+- Incidents that start before the month but overlap it are included when returned by Azure Resource Graph.
+- Resource Health currently provides availability-status records, not a complete historical outage timeline. Returned unavailable/degraded records are treated as lasting until month end; recovery times are not reconstructed. This can overstate downtime and cannot establish complete historical availability.
+- The SLA target catalog includes updated resource-type mappings, but these are indicative defaults, not verification of contractual coverage. Validate targets against the applicable service, tier, configuration, and current Online Services SLA.
 - Methodology is documented for transparency.
 - Results should be independently validated against Azure Portal > Service Health.
 
